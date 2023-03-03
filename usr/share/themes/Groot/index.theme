@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Groot
+Comment=A Material Design theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Groot
+MetacityTheme=Groot
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="bluetooth.svg"
+   id="svg10"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter16651"
+       x="-0.09"
+       width="1.18"
+       y="-0.064285714"
+       height="1.1285714">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.75"
+         id="feGaussianBlur16653" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:current-layer="svg10"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="14.208417"
+     inkscape:cx="9.4008869"
+     inkscape:zoom="20.85965"
+     showgrid="false"
+     id="namedview12"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="rect2-7"
+     style="opacity:0.5;mix-blend-mode:normal;fill:#000000;fill-opacity:0.995987;stroke:none;filter:url(#filter16651)"
+     transform="matrix(0,-1,-1,0,0,0)"
+     d="m -19,-26 h 6 c 6.094,0 11,4.46 11,10 0,5.54 -4.906,10 -11,10 h -6 c -6.094,0 -11,-4.46 -11,-10 0,-5.54 4.906,-10 11,-10 z" />
+  <rect
+     style="fill-opacity:1;fill:#0084f6"
+     id="rect2"
+     transform="matrix(0,-1,-1,0,0,0)"
+     ry="10"
+     rx="11"
+     y="-26"
+     x="-30"
+     height="20"
+     width="28"
+     fill="#324090" />
+  <path
+     id="path6"
+     d="m11 11.5 9 9-4.5 4.25v-17.5l4.5 4.25-9 8"
+     stroke-linecap="square"
+     stroke="#fff"
+     fill="none" />
+</svg>

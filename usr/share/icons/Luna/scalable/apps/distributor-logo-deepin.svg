@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="distributor-logo-deepin.svg"
+   id="svg44"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs48">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter59666"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.875"
+         id="feGaussianBlur59668" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg44"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="14.950131"
+     inkscape:zoom="23.8125"
+     showgrid="false"
+     id="namedview46"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     id="path34"
+     d="M 30,16 A 14,14 0 0 1 16,30 14,14 0 0 1 2,16 14,14 0 0 1 16,2 14,14 0 0 1 30,16 Z"
+     style="opacity:0.5;filter:url(#filter59666)" />
+  <path
+     id="path36"
+     d="M 30,16 A 14,14 0 0 1 16,30 14,14 0 0 1 2,16 14,14 0 0 1 16,2 14,14 0 0 1 30,16 Z"
+     style="fill:#33c5ff" />
+  <path
+     id="path40"
+     d="m 12.220895,26.331301 c -0.677246,-0.247621 -1.309865,-0.562614 -1.905742,-0.922233 2.960984,0.227496 6.824956,-0.454991 9.43069,-2.893569 0,0 4.967344,-3.96892 1.373742,-10.482294 0,0 0.579247,2.624949 -0.159247,4.784407 0,0 -0.704373,3.061826 -3.835101,3.914935 C 12.514019,21.98902 7.2596765,18.635826 5.0634386,17.072232 4.8980671,15.464889 5.0450638,13.804171 5.6339397,12.183703 6.5071809,9.7827492 8.2481994,7.9094107 10.25369,6.6511853 c -0.5013754,3.5078077 -0.105004,6.7373697 0.46462,8.0900927 0.764746,1.81384 1.994332,4.054929 4.586941,4.326175 2.592609,0.27212 4.022343,-2.279591 4.022343,-2.279591 1.329992,-2.02121 1.538243,-4.923528 1.518116,-4.993526 -0.02015,-0.07087 -0.354373,-0.262495 -0.354373,-0.262495 -0.895118,3.622429 -2.37123,4.832529 -2.37123,4.832529 -2.327488,2.246957 -4.175547,0.688612 -4.175547,0.688612 C 12.172696,15.149894 13.413441,12.05683 13.413441,12.05683 14.10731,9.9498715 16.328992,6.8664312 18.6206,5.2984616 c 0.3815,0.094498 0.765621,0.1531227 1.142742,0.2904948 1.386867,0.5057402 2.601361,1.2678505 3.628599,2.2040818 -1.675611,0.6116131 -4.381089,1.904837 -4.381089,1.904837 -4.288352,1.8059658 -4.577973,4.5376628 -4.577973,4.5376628 -0.443624,2.815694 1.790238,1.623967 1.790238,1.623967 2.299486,-1.119976 3.429102,-4.610283 3.429102,-4.610283 -0.717493,-0.136499 -1.282738,0.08137 -1.282738,0.08137 -0.917874,2.265331 -2.790357,3.197188 -2.790357,3.197188 -0.736748,0.390242 -0.908244,-0.299245 -0.908244,-0.299245 -0.124249,-0.516239 0.532869,-0.604612 0.532869,-0.604612 1.020244,-0.396367 1.67299,-1.468221 1.820863,-1.906588 0.146997,-0.439241 0.420871,-0.473366 0.420871,-0.473366 1.39824,-0.446241 2.673108,-0.545989 2.673108,-0.545989 1.73599,-0.213496 4.393345,0.614238 4.393345,0.614238 0.595871,0.239745 1.167241,0.419116 1.674741,0.562614 0.973867,2.433328 1.127864,5.204397 0.162745,7.860845 -2.080736,5.726764 -8.406943,8.680704 -14.128527,6.595622 z"
+     style="fill:#ffffff;fill-rule:evenodd" />
+</svg>

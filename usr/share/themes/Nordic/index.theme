@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Nordic
+Comment=An adaptive Gtk+ theme based on adapta
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Type=X-GNOME-Metatheme
+GtkTheme=Nordic
+MetacityTheme=Nordic
+IconTheme=Nordic-Folders
+CursorTheme=Nordic-Folders
+CursorSize=24
+ButtonLayout=:close

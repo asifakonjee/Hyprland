@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="gnome-twitch.svg"
+   id="svg12"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter59474"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.875"
+         id="feGaussianBlur59476" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg12"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="14.950131"
+     inkscape:zoom="23.8125"
+     showgrid="false"
+     id="namedview14"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <rect
+     fill="#7b5ab7"
+     width="28"
+     height="28"
+     x="2"
+     y="2"
+     rx="1.5"
+     ry="1.5"
+     id="rect2-3"
+     style="fill:#000000;fill-opacity:1;opacity:0.5;filter:url(#filter59474)" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1"
+     id="rect2"
+     ry="1.5"
+     rx="1.5"
+     y="2"
+     x="2"
+     height="28"
+     width="28"
+     fill="#7b5ab7" />
+  <path
+     style="fill:#8f4bf8;fill-opacity:1"
+     id="path10"
+     d="m8 6-1 4v15h4v2h2l2-2h3l7-7v-12h-17zm2 1h14v10.5l-2.5 2.5h-5.5l-3 3v-3h-3v-13zm4 3v6h2v-6h-2zm5 0v6h2v-6h-2z"
+     fill-rule="evenodd"
+     fill="#fff" />
+</svg>

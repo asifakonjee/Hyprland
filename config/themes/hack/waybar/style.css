@@ -1,0 +1,74 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Iosevka Nerd Font";
+    border: none;
+    min-height: 0;
+    margin: 1px 3px;
+}
+
+#waybar {
+    background-color: rgba(1, 22, 27, 0.8);
+    color: #D8DEE9;
+    transition-property: background-color;
+    transition-duration: .5s;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid rgba(100, 114, 125, 0.5);
+}
+
+/* Module */
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#mpd,
+#disk,
+#battery,
+#backlight,
+#workspaces {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    color: #66FFFF;
+    margin: 1px 2px;
+}
+
+#memory {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#workspaces button {
+    font-weight: bold; /* Somewhy the bar-wide setting is ignored*/
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #D8DEE9;
+    font-size: 0.9em;
+}
+#workspaces button.active {
+    background: #66FFFF;
+    color: #314049;
+    margin: 1px 2px;
+}
+
+#battery.charging, #battery.plugged {
+    color: #154c79;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: #e28743;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

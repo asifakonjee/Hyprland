@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   version="1"
+   id="svg16"
+   sodipodi:docname="applications-utilities.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20">
+    <filter
+       height="1.244421"
+       y="-0.12221052"
+       width="1.1935"
+       x="-0.096750001"
+       id="filter860"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur862"
+         stdDeviation="0.96750002"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter60920"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.875"
+         id="feGaussianBlur60922" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="23.8125"
+     inkscape:cx="11.716535"
+     inkscape:cy="14.32021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <rect
+     style="opacity:0.5;filter:url(#filter60920)"
+     width="28"
+     height="28"
+     x="2"
+     y="2"
+     rx="1.4"
+     ry="1.4"
+     id="rect2" />
+  <rect
+     style="fill:#3f3f3f"
+     width="28"
+     height="28"
+     x="2"
+     y="2"
+     rx="2.3966513"
+     ry="2.3966513"
+     id="rect4" />
+  <path
+     style="opacity:0.2;fill:#0efc66;fill-opacity:1"
+     d="M 6 2 L 6 6 L 2 6 L 2 8 L 6 8 L 6 12 L 2 12 L 2 14 L 6 14 L 6 18 L 2 18 L 2 20 L 6 20 L 6 24 L 2 24 L 2 26 L 6 26 L 6 30 L 8 30 L 8 26 L 12 26 L 12 30 L 14 30 L 14 26 L 18 26 L 18 30 L 20 30 L 20 26 L 24 26 L 24 30 L 26 30 L 26 26 L 30 26 L 30 24 L 26 24 L 26 20 L 30 20 L 30 18 L 26 18 L 26 14 L 30 14 L 30 12 L 26 12 L 26 8 L 30 8 L 30 6 L 26 6 L 26 2 L 24 2 L 24 6 L 20 6 L 20 2 L 18 2 L 18 6 L 14 6 L 14 2 L 12 2 L 12 6 L 8 6 L 8 2 L 6 2 z M 8 8 L 12 8 L 12 12 L 8 12 L 8 8 z M 14 8 L 18 8 L 18 12 L 14 12 L 14 8 z M 20 8 L 24 8 L 24 12 L 20 12 L 20 8 z M 8 14 L 12 14 L 12 18 L 8 18 L 8 14 z M 14 14 L 18 14 L 18 18 L 14 18 L 14 14 z M 20 14 L 24 14 L 24 18 L 20 18 L 20 14 z M 8 20 L 12 20 L 12 24 L 8 24 L 8 20 z M 14 20 L 18 20 L 18 24 L 14 24 L 14 20 z M 20 20 L 24 20 L 24 24 L 20 24 L 20 20 z"
+     id="path6" />
+  <g
+     id="g848" />
+  <path
+     id="path10-54-7"
+     d="M 3.9999998,16.500055 H 7.647348 l 1.775557,-6 1.183706,11 3.013066,-15.0000006 2.044581,19.0000006 2.797848,-18.0000006 2.15219,15.0000006 2.098387,-11 1.398923,6 H 28"
+     style="fill:none;stroke:#0efc66;stroke-width:2;stroke-linejoin:round;stroke-opacity:1;filter:url(#filter860);opacity:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     style="fill:none;stroke:#0efc66;stroke-width:0.8;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 3.9999998,16.500055 h 3.647348 l 1.7755575,-6 1.1837057,11 3.013066,-15.0000004 2.044581,19.0000004 2.797848,-18.0000004 2.15219,15.0000004 2.098387,-11 1.398923,6 H 28"
+     id="path10-54" />
+  <rect
+     id="rect4-3"
+     ry="1.3066666"
+     rx="1.3066666"
+     y="2.9333334"
+     x="2.9333334"
+     height="26.133333"
+     width="26.133333"
+     style="fill:none;stroke:#000000;stroke-width:1.86667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

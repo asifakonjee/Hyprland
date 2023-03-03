@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=Archcraft
+Description=Default sddm greeter theme for Archcraft
+Version=1.0
+Theme-Id=archcraft
+Theme-API=2.11
+Author=Aditya Shakya
+Email=adi1090x@gmail.com
+Copyright=Copyright (C) 2021 Aditya Shakya
+License=GPL-3.0-or-later
+Type=sddm-theme
+Screenshot=preview.png
+MainScript=main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations

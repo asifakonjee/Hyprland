@@ -1,0 +1,43 @@
+[Icon Theme]
+Name=Nordic-Folders
+Comment=Folders for Nordic darker gtk theme.
+
+Inherits=Numix-Apps,Archcraft-Dark
+
+# Directory list
+Directories=Places/16,Places/32,Places/48,Places/64,Places/96
+
+[Places/16]
+Context=Places
+Size=16
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[Places/32]
+Context=Places
+Size=32
+MinSize=32
+MaxSize=512
+Type=Scalable
+
+[Places/48]
+Context=Places
+Size=48
+MinSize=48
+MaxSize=512
+Type=Scalable
+
+[Places/64]
+Context=Places
+Size=64
+MinSize=64
+MaxSize=512
+Type=Scalable
+
+[Places/96]
+Context=Places
+Size=96
+MinSize=96
+MaxSize=512
+Type=Scalable

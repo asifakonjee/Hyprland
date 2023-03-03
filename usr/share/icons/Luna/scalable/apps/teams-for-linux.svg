@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="teams-for-linux.svg"
+   id="svg34"
+   version="1.1"
+   height="32"
+   width="32">
+  <path
+     id="circle8-9"
+     style="fill:#000000;fill-opacity:1;filter:url(#filter40463);opacity:0.5"
+     d="m 17.5,2.0000002 a 4.5,4.5 0 0 0 -4.5,4.5 A 4.5,4.5 0 0 0 17.5,11 4.5,4.5 0 0 0 22,6.5000002 a 4.5,4.5 0 0 0 -4.5,-4.5 z m 9,2 a 3.5,3.5 0 0 0 -3.5,3.5 A 3.5,3.5 0 0 0 26.5,11 3.5,3.5 0 0 0 30,7.5000002 a 3.5,3.5 0 0 0 -3.5,-3.5 z M 11.703125,12 c -0.692225,0 -1.281386,0.409924 -1.548828,1 H 8 v 7 h 2 v 1.205078 1.021484 h 0.0039 A 7.5,7.5 0 0 0 10,22.5 7.5,7.5 0 0 0 17.5,30 7.5,7.5 0 0 0 24.900391,23.705078 4.5,4.5 0 0 0 26.5,24 4.5,4.5 0 0 0 30.994141,19.714843 H 31 v -0.55664 -5.873047 -0.320313 C 31,12.430629 30.56937,11.999999 30.035156,12 h -6.740234 -0.332031 z" />
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs38">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter40384"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.46875"
+         id="feGaussianBlur40386" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter40463"
+       x="-0.083152174"
+       width="1.1663043"
+       y="-0.068303572"
+       height="1.1366071">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.796875"
+         id="feGaussianBlur40465" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg34"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="-15.194335"
+     inkscape:cx="11.874087"
+     inkscape:zoom="8.4189901"
+     showgrid="false"
+     id="namedview36"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     id="path6"
+     d="M 22.964286,11.999715 C 22.430072,11.999715 22,12.429786 22,12.964 V 13.285429 19.159034 19.714 H 22.177037 30.822963 31 V 19.159034 13.285429 12.964 c 0,-0.534214 -0.430072,-0.964285 -0.964286,-0.964285 z"
+     style="fill:#5059c9" />
+  <circle
+     id="circle8"
+     r="4.5"
+     cy="19.5"
+     cx="26.5"
+     style="fill:#5059c9" />
+  <circle
+     id="circle10"
+     r="3.5"
+     cy="7.5"
+     cx="26.5"
+     style="fill:#5059c9" />
+  <circle
+     id="circle12"
+     r="4.5"
+     cy="6.5"
+     cx="17.5"
+     style="fill:#7b83eb" />
+  <path
+     id="path14"
+     d="m 11.704546,11.99991 c -0.944319,0 -1.7045462,0.760227 -1.7045462,1.704545 v 1.704546 5.795454 1.022727 h 0.3462352 c 0.310537,0.412496 0.799934,0.681818 1.358311,0.681818 h 11.590907 c 0.558377,0 1.047774,-0.269322 1.35831,-0.681818 h 0.346236 v -1.022727 -5.795454 -1.704546 c 0,-0.944318 -0.760228,-1.704545 -1.704546,-1.704545 z"
+     style="fill:#7b83eb" />
+  <circle
+     id="circle18"
+     r="7.5"
+     cy="22.5"
+     cx="17.5"
+     style="fill:#7b83eb" />
+  <rect
+     id="rect20"
+     ry="1.023"
+     rx="1.023"
+     y="8.6000004"
+     x="2"
+     height="15"
+     width="15"
+     style="opacity:0.5;filter:url(#filter40384)" />
+  <rect
+     id="rect22"
+     ry="1.023"
+     rx="1.023"
+     y="8"
+     x="2"
+     height="15"
+     width="15"
+     style="fill:#5059c9" />
+  <rect
+     id="rect26"
+     y="11"
+     x="5"
+     height="3"
+     width="9"
+     style="fill:#ffffff" />
+  <rect
+     id="rect28"
+     transform="rotate(90)"
+     y="-11"
+     x="13"
+     height="3"
+     width="7"
+     style="fill:#ffffff" />
+</svg>

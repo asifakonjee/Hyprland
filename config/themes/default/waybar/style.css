@@ -1,0 +1,73 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "JetBrains Mono";
+    border: none;
+    min-height: 0;
+    margin: 1px 3px;
+}
+
+#waybar {
+    background-color: #1E2128;
+    color: #D8DEE9;
+    transition-property: background-color;
+    transition-duration: .5s;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Module */
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#mpd,
+#disk,
+#battery,
+#backlight,
+#workspaces {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    color: #D8DEE9;
+    margin: 1px 2px;
+}
+
+#mpd,
+#clock,
+#tray,
+#workspaces {
+	background: rgba(56,60,74,1.0);
+	border-radius: 5px;
+}
+
+#memory {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#workspaces button {
+    padding: 0;
+    font-size: 0.9em;
+    margin: 2px 2px;
+}
+
+#battery.charging, #battery.plugged {
+    color: #154c79;
+}
+
+@keyframes blink {
+    to {
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: #e28743;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

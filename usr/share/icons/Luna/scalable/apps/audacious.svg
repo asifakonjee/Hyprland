@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="audacious.svg"
+   id="svg12"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16">
+    <filter
+       height="1.15"
+       y="-0.075"
+       width="1.15"
+       x="-0.075"
+       id="filter903"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur905"
+         stdDeviation="0.875"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg12"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="13.948718"
+     inkscape:zoom="24.375"
+     showgrid="false"
+     id="namedview14"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     fill="#4f4f4f"
+     d="M 16,1.9999999 A 14,14 0 0 1 30,16 14,14 0 0 1 16,30 14,14 0 0 1 2,16 14,14 0 0 1 16,1.9999999 Z"
+     id="path2-2"
+     style="opacity:0.5;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke-width:0.933334;filter:url(#filter903)" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke-width:0.933334"
+     id="path2"
+     d="M 16,2 A 14,14 0 0 1 30,16 14,14 0 0 1 16,30 14,14 0 0 1 2,16 14,14 0 0 1 16,2 Z"
+     fill="#4f4f4f" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.800001"
+     id="path2-3"
+     d="M 16,4 A 12,12 0 0 1 28,16 12,12 0 0 1 16,28 12,12 0 0 1 4,16 12,12 0 0 1 16,4 Z"
+     fill="#4f4f4f" />
+  <path
+     id="path6"
+     d="m16.661 9.0027c-0.2134-0.00828-0.43115 0.00444-0.65606 0.015038-1.3355 0.063094-3.6984 0.0112-4.62 1.1953-0.56317 0.72352-0.30087 2.4067 0.56214 2.5815 1.0751 0.21776 2.8927-0.32213 4.0579-0.18944 0.8124 0.09252 1.0497 0.80369 0.38811 1.2975-0.70052 0.52284-2.2909 0.36434-3.0938 0.62695-2.7759 0.9079-3.7735 2.8315-3.0938 5.4381 0.4432 1.6997 2.0123 2.9609 3.7236 3.0325 3.2921-0.008 2.6779-1.816 4.272-0.87502 0.52458 0.65908 1.5819 0.87056 2.1298 0.40744 0.88079-0.74458 2.209-1.1433 1.2721-2.6672-0.44867-0.72974 0.59725-1.6758 0.36187-5.3073-0.20882-3.2215-2.1026-5.4317-5.3037-5.5553zm-0.42816 7.7865c0.74145-0.000001 1.3259 0.56422 1.3259 1.2674 0 0.70321-0.58447 1.284-1.3259 1.284-0.74145 0-1.3535-0.58076-1.3535-1.284 0-0.70321 0.6121-1.2674 1.3535-1.2674z"
+     fill="#fff"
+     style="fill:#000000" />
+</svg>

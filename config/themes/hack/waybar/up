@@ -1,0 +1,65 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "fixed-center": true,
+    "spacing": 6, // Gaps between modules (4px)
+    
+    // Choose the order of the modules
+    "modules-left": ["cpu", "memory", "disk"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": ["battery", "backlight", "network", "clock"],
+    
+    // Modules configuration
+   
+    "wlr/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": true,
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-click": "activate",
+        "format": "{name}"   
+    },
+    
+    "clock": {
+        "format": " {:%H:%M,%e %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "today-format": "<b>{}</b>"
+    },
+    
+    "cpu": {
+		"interval": 10,
+		"format": "{}% ",
+		"max-length": 10
+	},
+    
+    "memory": {
+		"interval": 30,
+		"format": "{}% ﬙",
+		"max-length": 10
+	},
+	
+	"disk": {
+		"interval": 30,
+		"format": "{percentage_used}% ",
+		"path": "/"
+	},
+
+    "network": {
+        // "interface": "wlan0", // (Optional) To force the use of this interface,
+        "format-wifi": "歷 {essid}",
+        // "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-ethernet": "{ifname} 歷",
+        // "format-linked": "{ifname} (No IP) ",
+        "format-linked": "{ifname} 歷",
+        "format-disconnected": "轢 Disconected",
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        // "format-alt": "歷 {ifname}",
+        "family": "ipv4",
+        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
+        "on-click": "~/.config/rofi/bin/network_menu",
+        "on-click-right": "nm-connection-editor"
+    }
+}
+

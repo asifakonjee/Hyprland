@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="protonmail-desktop.svg"
+   id="svg30"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata36">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs34">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter41553"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.875"
+         id="feGaussianBlur41555" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg30"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="14.950131"
+     inkscape:zoom="23.8125"
+     showgrid="false"
+     id="namedview32"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     id="path20"
+     d="M 30,16 A 14,14 0 0 1 16,30 14,14 0 0 1 2,16 14,14 0 0 1 16,2 14,14 0 0 1 30,16 Z"
+     style="opacity:0.5;filter:url(#filter41553)" />
+  <path
+     id="path22"
+     d="M 30,16 A 14,14 0 0 1 16,30 14,14 0 0 1 2,16 14,14 0 0 1 16,2 14,14 0 0 1 30,16 Z"
+     style="fill:#8e99c8;fill-opacity:1" />
+  <path
+     id="path26"
+     d="M 16 8 C 15.623595 8 15.245561 8.0169714 15.005859 8.0527344 C 12.112594 8.4842645 10.402895 9.9465602 10.060547 12.279297 C 10.022727 12.537033 10.011939 12.99462 10.005859 14.748047 L 10 16.830078 L 10.083984 16.96875 C 10.291205 17.311843 10.577248 17.552526 11.939453 18.53125 C 14.216841 20.167522 15.152022 20.765415 15.728516 20.947266 C 15.819496 20.975966 15.945246 20.99917 16.007812 21 C 16.390418 21.0053 17.509326 20.356521 19.203125 19.144531 C 21.315413 17.633088 21.70626 17.319188 21.912109 16.976562 L 22 16.830078 L 22 15.111328 C 22 12.870845 21.98597 12.4743 21.884766 11.994141 C 21.704285 11.137858 21.37501 10.462304 20.851562 9.8730469 C 20.011378 8.9272299 18.697353 8.3070594 16.992188 8.0527344 C 16.752478 8.0169844 16.376405 8 16 8 z M 16 11 C 17.999997 11.000009 18.545045 12.178874 18.931641 13.623047 C 18.999711 13.877307 19 13.887665 19 14.921875 C 19 15.495297 18.992202 15.974766 18.982422 15.986328 C 18.972622 15.997868 17.636361 16.002387 16 15.998047 C 14.363639 16.002447 13.027377 15.997888 13.017578 15.986328 C 13.007778 15.974768 13 15.495297 13 14.921875 C 13 13.887665 13.000319 13.877307 13.068359 13.623047 C 13.45496 12.178874 14.000003 10.999991 16 11 z M 10.001953 18 C 10.001953 18 9.9962363 18.587641 10.003906 20.775391 L 10.013672 23.462891 L 10.103516 23.630859 C 10.172826 23.759754 10.22903 23.818446 10.341797 23.884766 L 10.490234 23.972656 L 12.880859 23.986328 C 14.195676 23.994228 16.656105 24.0008 18.349609 24 L 21.429688 23.998047 L 21.578125 23.935547 C 21.769455 23.853357 21.825369 23.803074 21.914062 23.636719 L 21.986328 23.501953 L 21.990234 21.050781 L 22 18 L 21.960938 18 L 21.912109 18.080078 C 21.70626 18.413917 21.315413 18.71872 19.203125 20.191406 C 17.509327 21.372317 16.390418 22.0052 16.007812 22 C 15.945243 21.9992 15.819497 21.975236 15.728516 21.947266 C 15.152022 21.770076 14.216841 21.190017 11.939453 19.595703 C 10.577246 18.642077 10.291204 18.406561 10.083984 18.072266 L 10.039062 18 L 10.001953 18 z"
+     style="fill:#ffffff" />
+</svg>

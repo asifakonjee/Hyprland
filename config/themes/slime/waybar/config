@@ -1,0 +1,113 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "fixed-center": true,
+    
+    // Choose the order of the modules
+    "modules-left": ["wlr/workspaces", "cpu", "memory", "disk"],
+    "modules-center": ["mpd"],
+    "modules-right": ["battery", "backlight", "pulseaudio", "network", "clock", "tray"],
+    
+    // Modules configuration
+	"wlr/workspaces": {	
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+        "all-outputs": true,
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"active": "<span color=\"#42a5f5\"></span>",
+		"default": ""
+		},
+	"sort-by-number": true
+	},
+    
+    "mpd": {
+        "format": "<span color=\"#ffe744\"></span> {title} - {artist}",
+        "format-disconnected": "Disconnected",
+        "format-stopped": "Stopped",
+        "max-length": 50,
+        "on-click": "~/.config/rofi/bin/music",
+        "on-click-right": "alacritty -e ncmpcpp"
+    },
+    
+    "tray": {
+        //"icon-size": 11,
+        "spacing": 5
+    },
+    
+    "clock": {
+        "format": "<span color=\"#61c766\"></span> {:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "today-format": "<b>{}</b>",
+        "format-alt": "<span color=\"#61c766\"></span> {:%Y-%m-%d}"
+    },
+    
+    "cpu": {
+		"interval": 10,
+		"format": "{}% <span color=\"#ffe744\"></span>",
+		"max-length": 10
+	},
+    
+    "memory": {
+		"interval": 30,
+		"format": "{}% <span color=\"#51b4ff\">﬙</span>",
+		"max-length": 10
+	},
+	
+	"disk": {
+		"interval": 30,
+		"format": "{percentage_used}% <span color=\"#ba68c8\"></span>",
+		"path": "/"
+	},
+
+    "network": {
+        "format-wifi": "<span color=\"#42a5f5\">直</span> {essid}",
+        "format-ethernet": "<span color=\"#42a5f5\">歷</span> {ifname}",
+        "format-linked": "<span color=\"#42a5f5\">歷</span> {ifname}",
+        "format-disconnected": "轢 Disconected",
+        "family": "ipv4",
+        "tooltip-format-wifi": " {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n⬆️ {bandwidthUpBits} ⬇️ {bandwidthDownBits}",
+        "on-click": "~/.config/rofi/bin/network_menu",
+        "on-click-right": "nm-connection-editor"
+    },
+    
+    "pulseaudio": {
+        "scroll-step": 3, // %, can be a float
+        "format": "<span color=\"#ffe744\">{icon}</span> {volume}%",
+        "format-bluetooth": "<span color=\"#ffe744\">{icon} </span> {volume}%",
+        "format-bluetooth-muted": "婢  MUTE",
+        "format-muted": "婢 MUTE",
+        "format-source": "<span color=\"#ffe744\"></span>",
+        "format-source-muted": "",            
+        "format-icons": {
+			"default": ["奄", "奄", "", "", "", ""]
+        },
+        "on-double-click": "pavucontrol",
+        "on-click": "pulsemixer --unmute",
+        "on-click-right": "pulsemixer --mute"
+    },
+    
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "<span color=\"#ba68c8\">{icon}</span> {capacity}%",
+        "format-charging": "<span color=\"#ba68c8\"></span> {capacity}%",
+        "format-plugged": "<span color=\"#ba68c8\"></span> {capacity}%",
+        "format-alt": "<span color=\"#ba68c8\">{icon}</span> {time}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "<span color=\"#51b4ff\">{icon}</span> {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", ""]
+    }
+}
+

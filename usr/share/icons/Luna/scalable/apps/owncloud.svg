@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="owncloud.svg"
+   id="svg26"
+   version="1.1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter60417"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.875"
+         id="feGaussianBlur60419" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg26"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="14.950131"
+     inkscape:zoom="23.8125"
+     showgrid="false"
+     id="namedview28"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <rect
+     style="fill:#020203;fill-opacity:1;opacity:0.5;filter:url(#filter60417)"
+     fill="#394e6f"
+     width="28"
+     height="28"
+     x="2"
+     y="2"
+     rx="1.5"
+     ry="1.5"
+     id="rect2-3" />
+  <rect
+     id="rect2"
+     ry="1.5"
+     rx="1.5"
+     y="2"
+     x="2"
+     height="28"
+     width="28"
+     fill="#394e6f" />
+  <circle
+     id="circle8"
+     r="3.25"
+     cy="14.5"
+     cx="18.5"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle10"
+     r="1.75"
+     cy="21"
+     cx="26"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle12"
+     r="3.75"
+     cy="19"
+     cx="22"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle14"
+     r="3.25"
+     cy="19.5"
+     cx="7.5"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle16"
+     r="1.75"
+     cy="13"
+     cx="10.5"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle18"
+     r="3.75"
+     cy="17"
+     cx="11"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle20"
+     r="1.75"
+     cy="21"
+     cx="11"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle22"
+     r="3.25"
+     cy="12.5"
+     cx="14.5"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+  <circle
+     id="circle24"
+     r="4.75"
+     cy="18"
+     cx="16"
+     stroke-width=".5"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="#394e6f"
+     fill="#fff" />
+</svg>

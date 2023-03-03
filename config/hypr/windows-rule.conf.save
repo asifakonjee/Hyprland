@@ -1,0 +1,27 @@
+# Example windowrule v1
+# windowrule = float, ^(kitty)$
+
+windowrule = float, Rofi
+windowrule = float, pavucontrol
+windowrule = float, obs
+windowrule = float, stacer
+windowrule = float, discord
+windowrule = float, nemo
+windowrule = float, TablePlus
+windowrule = float, vlc
+windowrule = float, file-roller
+#xwindowrule = float, Viewnior
+windowrule = float, xfce-polkit
+windowrule = float, title:Open File
+windowrule = float, title:branchdialog
+windowrule = float, nwg-look
+windowrule = float, nm-connection-editor
+
+windowrule = size 850 425, xdg-desktop-portal
+windowrule = size 850 425, nemo
+windowrule = size 850 425, TablePlus
+
+windowrule = animation none, Rofi
+# Example windowrule v2
+# windowrulev2 = float,class:^(kitty)$,title:^(kitty)$
+# See https://wiki.hyprland.org/Configuring/Window-Rules/ for more

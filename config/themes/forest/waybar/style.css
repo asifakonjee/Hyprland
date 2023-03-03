@@ -1,0 +1,84 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Iosevka Nerd Font";
+    border: none;
+    min-height: 0;
+    margin: 1px 3px;
+}
+
+#waybar {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #D8DEE9;
+    transition-property: background-color;
+    transition-duration: .5s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Module */
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray,
+#mpd,
+#disk,
+#battery,
+#backlight,
+#workspaces {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    color: #D8DEE9;
+    margin: 1px 2px;
+}
+
+#memory {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#tray {
+	font-weight: bold; /* Somewhy the bar-wide setting is ignored*/
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    border-radius: 2px;
+    background: #D8DEE9;
+    color: #314049;
+    font-size: 0.9em;
+    margin: 1px 3px;
+	}
+
+#workspaces button {
+    font-weight: bold; /* Somewhy the bar-wide setting is ignored*/
+    padding: 0;
+    background:	rgba(55,73,80,0.5);
+    color: #D8DEE9;
+    font-size: 0.9em;
+}
+
+#workspaces button.active {
+    background: #D8DEE9;
+    color: #314049;
+}
+
+#battery.charging, #battery.plugged {
+    color: #4dd0e1;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: #e28743;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

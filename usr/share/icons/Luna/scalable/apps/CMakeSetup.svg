@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="CMakeSetup.svg"
+   id="svg20"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs24">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter60780"
+       x="-0.072281501"
+       width="1.144563"
+       y="-0.077987936"
+       height="1.1559759">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.234809"
+         id="feGaussianBlur60782" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg20"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="14.974359"
+     inkscape:zoom="24.375"
+     showgrid="false"
+     id="namedview22"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <g
+     style="fill:#000000;fill-opacity:1;opacity:0.5;filter:url(#filter60780)"
+     transform="matrix(0.7561,0,0,0.74359,-2.52445,-1.84616)"
+     id="g10-3">
+    <path
+       style="fill:#000000;fill-opacity:1"
+       fill="#4a86d8"
+       d="M 4,43 24,5 26.5,24 Z"
+       id="path4-6" />
+    <path
+       style="fill:#000000;fill-opacity:1"
+       fill="#dd3c3d"
+       d="M 24,5 45,43 27.8,36.3 Z"
+       id="path6-7" />
+    <path
+       style="fill:#000000;fill-opacity:1"
+       fill="#339c33"
+       d="M 45,43 H 4 L 17,32 Z"
+       id="path8-5" />
+  </g>
+  <g
+     id="g10"
+     transform="matrix(0.7561,0,0,0.74359,-2.52445,-1.84616)">
+    <path
+       id="path4"
+       d="M 4,43 24,5 26.5,24 Z"
+       fill="#4a86d8" />
+    <path
+       id="path6"
+       d="M 24,5 45,43 27.8,36.3 Z"
+       fill="#dd3c3d" />
+    <path
+       id="path8"
+       d="M 45,43 H 4 L 17,32 Z"
+       fill="#339c33" />
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Rick
+Comment=A Material Design theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Rick
+MetacityTheme=Rick
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

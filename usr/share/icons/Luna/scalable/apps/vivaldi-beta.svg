@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="vivaldi-beta.svg"
+   id="svg16"
+   version="1"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient40228">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop40224" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1"
+         offset="1"
+         id="stop40226" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient40228"
+       id="linearGradient40230"
+       x1="16"
+       y1="2"
+       x2="16"
+       y2="30"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter40232"
+       x="-0.075"
+       width="1.15"
+       y="-0.075"
+       height="1.15">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.875"
+         id="feGaussianBlur40234" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg16"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="14.950131"
+     inkscape:zoom="23.8125"
+     showgrid="false"
+     id="namedview18"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <rect
+     id="rect2"
+     ry="8.3999996"
+     rx="8.3999996"
+     y="2"
+     x="2"
+     height="28"
+     width="28"
+     style="opacity:0.5;filter:url(#filter40232)" />
+  <rect
+     id="rect4"
+     ry="8.4"
+     rx="8.4"
+     y="2"
+     x="2"
+     height="28"
+     width="28"
+     style="fill:url(#linearGradient40230);fill-opacity:1" />
+  <circle
+     id="circle8"
+     r="10"
+     cy="16"
+     cx="16"
+     style="fill:#ef3939" />
+  <path
+     id="path12"
+     d="m 20.606781,10.000279 c -0.26067,1.95e-4 -0.524605,0.05481 -0.735869,0.16115 -0.308726,0.155403 -0.619469,0.4846 -0.757319,0.802289 -0.146494,0.337617 -0.167533,0.932805 -0.04412,1.249175 0.0522,0.133783 0.142284,0.363657 0.200149,0.510823 0.130678,0.332357 0.177716,0.763179 0.09486,1.173782 -0.0933,0.46233 -0.383115,0.996404 -0.72287,1.332114 -1.019556,1.007274 -2.760593,1.024921 -3.773216,0.04089 -0.349424,-0.339573 -0.398982,-0.120437 -1.976352,-2.935276 -0.535165,-0.955746 -1.01544,-1.755918 -1.115106,-1.859328 -0.313443,-0.331687 -0.749303,-0.450273 -1.148401,-0.45225 -0.8579956,-0.01392 -1.4526715,0.657418 -1.593793,1.378067 -0.104238,0.576707 -0.1521861,0.477427 2.619416,5.416196 1.749431,3.117326 2.580922,4.554332 2.717278,4.695576 0.482955,0.500404 1.37061,0.624439 2.014468,0.32717 0.169289,-0.07817 0.360929,-0.218642 0.483346,-0.354304 0.239784,-0.265724 4.998337,-9.068287 5.078793,-9.371104 0.08433,-0.317366 0.06338,-0.768267 -0.05009,-1.080332 -0.141166,-0.388158 -0.330566,-0.786409 -0.714649,-0.935418 -0.172401,-0.06688 -0.373178,-0.09966 -0.575918,-0.0995 z"
+     style="fill:#ffffff" />
+</svg>

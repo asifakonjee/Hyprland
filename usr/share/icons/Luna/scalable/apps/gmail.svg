@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg29"
+   sodipodi:docname="gmail.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     id="namedview31"
+     showgrid="false"
+     inkscape:zoom="12.582127"
+     inkscape:cx="23.064859"
+     inkscape:cy="27.024683"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g27" />
+  <defs
+     id="defs7">
+    <linearGradient
+       x1="1.3210428"
+       y1="127.76156"
+       x2="211.76385"
+       y2="127.76156"
+       id="linearGradient-1"
+       gradientTransform="scale(1.2033273,0.83102911)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#000000"
+         stop-opacity="0.1"
+         offset="0%"
+         id="stop2" />
+      <stop
+         stop-color="#000000"
+         stop-opacity="0.2"
+         offset="100%"
+         id="stop4" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter873"
+       x="-0.073785561"
+       width="1.1475711"
+       y="-0.076234428"
+       height="1.1524689">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.835719"
+         id="feGaussianBlur875" />
+    </filter>
+  </defs>
+  <g
+     id="g27"
+     transform="matrix(0.10985993,0,0,0.11350607,1.9763536,5.0000002)">
+    <ellipse
+       style="opacity:0.5;fill:#000000;fill-opacity:1;stroke-width:2.80949;filter:url(#filter873)"
+       id="path856-3"
+       cx="127.65024"
+       cy="96.911118"
+       rx="127.435"
+       ry="123.34142" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;stroke-width:2.80949;fill-opacity:1"
+       id="path856"
+       cx="127.65024"
+       cy="96.911118"
+       rx="127.435"
+       ry="123.34142" />
+    <path
+       fill="#4285f4"
+       d="m 56.898993,156.39464 h 26.06625 V 95.12438 L 45.72774,68.093389 v 77.488851 c 0,5.98286 5.008441,10.8124 11.171253,10.8124"
+       id="path2"
+       style="stroke-width:1.83173" />
+    <path
+       fill="#34a853"
+       d="m 172.33524,156.39464 h 26.06625 c 6.18142,0 11.17125,-4.84758 11.17125,-10.8124 V 68.093389 l -37.2375,27.030991"
+       id="path4"
+       style="stroke-width:1.83173" />
+    <path
+       fill="#fbbc04"
+       d="M 172.33524,48.270666 V 95.12438 l 37.2375,-27.030991 V 53.67686 c 0,-13.371332 -15.77008,-20.994072 -26.811,-12.974879"
+       id="path6"
+       style="stroke-width:1.83173" />
+    <path
+       fill="#ea4335"
+       d="M 82.965243,95.12438 V 48.270666 l 44.684997,32.437184 44.685,-32.437184 V 95.12438 l -44.685,32.43719"
+       id="path8"
+       style="stroke-width:1.83173" />
+    <path
+       fill="#c5221f"
+       d="M 45.72774,53.67686 V 68.093389 L 82.965243,95.12438 V 48.270666 L 72.538741,40.701981 C 61.479203,32.682788 45.72774,40.305528 45.72774,53.67686"
+       id="path10"
+       style="stroke-width:1.83173" />
+  </g>
+</svg>

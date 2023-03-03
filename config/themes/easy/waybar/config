@@ -1,0 +1,141 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 32, // Waybar height (to be removed for auto height)
+    "spacing": 4, // Gaps between modules (4px)
+    "fixed-center": true,
+    
+    // Choose the order of the modules
+    "modules-left": ["custom/menu", "wlr/workspaces", "hyprland/window"],
+    // "modules-center": [],
+    "modules-right": ["custom/cycle_wall", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
+    
+    // Modules configuration
+    "wlr/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": true,
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-click": "activate",
+        "format": "{icon}",
+         "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+     },
+    
+    "disk": {
+		"interval": 30,
+		"format": "{percentage_used}% <span color=\"#C778DD\"></span>",
+		"path": "/"
+	},
+	
+    "mpd": {
+        "format": "{title} - {artist} ",
+        "format-disconnected": "Disconnected",
+        "format-stopped": "Stopped",
+        "max-length": 50,
+        "on-click": "~/.config/rofi/bin/music",
+        "on-click-right": "alacritty -e ncmpcpp"
+    },
+    
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    
+    "clock": {
+        // "timezone": "Asia/Dhaka",
+        "format": "{:%I:%M %p} <span color=\"#BF616A\"></span>",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
+        "format-alt": "{:%d/%m/%Y} <span color=\"#BF616A\"></span>"
+    },
+    
+    "cpu": {
+        "format": "{usage}% <span color=\"#EFCA84\"></span>",
+        "tooltip": false
+    },
+    
+    "memory": {
+        "format": "{}% <span color=\"#62AEEF\"></span>"
+    },
+    
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% <span color=\"#FFFFFF\">{icon}</span>",
+        "format-charging": "{capacity}% <span color=\"#FF0000\"></span>",
+        "format-plugged": "{capacity}% <span color=\"#FF0000\"></span>",
+        "format-alt": "{time} <span color=\"#FF0000\">{icon}</span>",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    
+    "network": {       
+        "format-wifi": "{essid} ({signalStrength}%) <span color=\"#008080\"></span>",
+        "format-ethernet": "{ipaddr}/{cidr} <span color=\"#008080\"></span>",
+        "tooltip-format": "{ifname} via {gwaddr} <span color=\"#008080\"></span>",
+        "format-linked": "{ifname} (No IP) <span color=\"#008080\"></span>",
+        "format-disconnected": "Disconnected 轢",
+        //"format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "on-click": "~/.config/rofi/bin/network_menu",
+        "on-click-right": "nm-connection-editor"
+    },
+    
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% <span color=\"#00FF00\">{icon}</span>",
+        "format-bluetooth": "{volume}% <span color=\"#00FF00\">{icon} </span>",
+        "format-bluetooth-muted": "MUTE 婢 ",
+        "format-muted": "MUTE 婢",
+        "format-source": "{volume}% <span color=\"#00FF00\"></span>",
+        "format-source-muted": "",
+        "format-icons": {
+            "default": ["奄", "奄", "", "", "", ""]
+        },
+        "on-double-click": "pavucontrol",
+        "on-click": "pulsemixer --unmute",
+        "on-click-right": "pulsemixer --mute"
+    },
+    
+    "custom/cycle_wall":{
+    "format":" ",
+    "on-click": "~/.config/hypr/bin/changeWallpaper",
+    "tooltip-format": "Change wallpaper",
+	},
+    
+    "custom/menu": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "~/.config/rofi/bin/launcher",
+	},
+    
+    "custom/power": {
+    "format": " ⏻ ",
+    "tooltip": false,
+    "on-click": "~/.config/rofi/bin/powermenu",
+	},
+    
+    "hyprland/window": {
+		"format": "{}",
+		"max-length": 80,
+		"separate-outputs": true
+	}
+}
+
