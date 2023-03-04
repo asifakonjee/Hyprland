@@ -26,6 +26,11 @@ xfce-polkit dunst geany viewnior nwg-look xdg-desktop-portal-hyprland-git qt5-sv
 xdg-user-dirs pulsemixer pavucontrol qt5-graphicaleffects qt5-quickcontrols2 \
 pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland
 ```
+N.B.- Some points during installation. 
+1. Please try to install hyprland-git and during installation in paru choose rustup as dependency.
+2. If it still gives error, then install wl-roots from pacman first.
+3. During installation of xdg-desktop-portal-hyprland-git, choose xdg-desktop-portal-wlr, otherwise hyprland will not start. Make sure that you don't have other xdg-desktop-portals. 
+
 ### Please READ the Hyprland wiki FIRST. Don't blindly copy/paste this repo.
 
 ### Copy Configuration and stuff
