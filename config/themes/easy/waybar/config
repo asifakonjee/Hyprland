@@ -2,7 +2,7 @@
     "layer": "top", // Waybar at top layer
     "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 32, // Waybar height (to be removed for auto height)
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 0, // Gaps between modules (4px)
     "fixed-center": true,
     
     // Choose the order of the modules
@@ -20,10 +20,12 @@
         "format": "{icon}",
          "format-icons": {
              "1": "",
-             "2": "",
-             "3": "",
-             "4": "",
+             "2": "",
+             "3": "",
+             "4": "",
              "5": "",
+             "6": "",
+             "7": "",
              "urgent": "",
              "focused": "",
              "default": ""
