@@ -20,7 +20,15 @@ makepkg -si
 ### Packages
 
 ``` bash
-Paru -S git sddm-git hyprland-git waybar-hyprland alacritty rofi thunar gvfs-mtp swayidle \
+sudo pacman -S gdb ninja gcc cmake libxcb xcb-proto xcb-util-keysyms libxfixes libx11 \
+libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd \
+libxkbcommon xcb-util-wm xorg-xwayland libinput
+
+git clone --recursive https://github.com/hyprwm/Hyprland.git
+cd Hyprland/
+sudo make install
+
+Paru -S git sddm-git waybar-hyprland alacritty rofi thunar gvfs-mtp swayidle \
 swaybg swaylock-effects-git wl-clipboard networkmanager-dmenu-git \
 xfce-polkit dunst geany viewnior nwg-look xdg-desktop-portal-hyprland-git qt5-svg inetutils \
 xdg-user-dirs pulsemixer pavucontrol qt5-graphicaleffects qt5-quickcontrols2 \
