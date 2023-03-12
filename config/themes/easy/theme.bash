@@ -23,6 +23,7 @@ color12='#81A1C1'
 color13='#B48EAD'
 color14='#8FBCBB'
 color15='#ECEFF4'
+color16='#008080'
 
 accent='#5294E2'
 light_value='0.05'
@@ -43,7 +44,7 @@ geany_font='JetBrains Mono 16'
 # Appearance
 gtk_font='JetBrainsMono Nerd Font 12'
 gtk_theme='Rick'
-icon_theme='Colloid-red-dark'
+icon_theme='Colloid-teal-dark'
 cursor_theme='Bibata-Modern-Classic'
 
 # Dunst
