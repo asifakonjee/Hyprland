@@ -7,7 +7,7 @@
 }
 
 #waybar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #FFFFFF;
     transition-property: background-color;
     transition-duration: .5s;
@@ -33,6 +33,7 @@
     margin: 1px 2px;
     background: #000000;
 	border-radius: 5px;
+	border: 0.3px solid #ffffff;
 }
 
 #memory {
@@ -70,6 +71,7 @@
     padding-right: 0.3em;
 	background-color: #000000;
 	border-radius: 5px;
+	border: 0.3px solid #ffffff;
 }
 
 #custom-power {
@@ -77,6 +79,7 @@
     padding-right: 0.3em;
 	background-color: #000000;
 	border-radius: 5px;
+	border: 0.3px solid #ffffff;
 }
 
 #custom-cycle_wall {
@@ -85,6 +88,7 @@
 	padding-right: 0.2em;
 	background-color: #000000;
 	border-radius: 5px;
+	border: 0.3px solid #ffffff;
 }
 
 #battery.critical:not(.charging) {
