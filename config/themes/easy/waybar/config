@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/menu", "wlr/workspaces", "hyprland/window"],
     // "modules-center": [],
-    "modules-right": ["custom/cycle_wall", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
+    "modules-right": ["custom/cycle_wall", "custom/filemanager", "custom/browser", "custom/libre", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
     
     // Modules configuration
     "wlr/workspaces": {
@@ -133,7 +133,25 @@
     "tooltip": false,
     "on-click": "~/.config/rofi/bin/powermenu",
 	},
-    
+
+   "custom/filemanager": {
+        "format": "  ",
+        "interval": "once",
+        "on-click": "exec 'thunar'",
+  },
+
+  "custom/libre": {
+        "format": "  ",
+        "interval": "once",
+        "on-click": "exec libreoffice",
+  },
+
+    "custom/browser": {
+        "format": "  ",
+        "interval": "once",
+        "on-click": "exec 'firefox'",
+  },
+
     "hyprland/window": {
 		"format": "{}",
 		"max-length": 80,

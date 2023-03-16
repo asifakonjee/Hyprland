@@ -82,6 +82,30 @@
 	border: 0.3px solid #ffffff;
 }
 
+#custom-filemanager {
+	background-color: #000000;
+	padding-left: 0.1em;
+	padding-right: 0.2em;
+	background-color: #000000;
+	border-radius: 5px;
+	border: 0.3px solid #ffffff;
+}
+#custom-browser {
+	background-color: #000000;
+	padding-left: 0.1em;
+	padding-right: 0.2em;
+	background-color: #000000;
+	border-radius: 5px;
+	border: 0.3px solid #ffffff;
+}
+#custom-libre {
+	background-color: #000000;
+	padding-left: 0.1em;
+	padding-right: 0.2em;
+	background-color: #000000;
+	border-radius: 5px;
+	border: 0.3px solid #ffffff;
+}
 #custom-cycle_wall {
 	background-color: #000000;
 	padding-left: 0.4em;
