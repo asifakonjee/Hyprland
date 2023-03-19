@@ -41,6 +41,8 @@ N.B.- Some points during installation.
 
 ### Please READ the Hyprland wiki FIRST. Don't blindly copy/paste this repo.
 
+# IMPORTANT: These configuration files will work on Hyprland 0.22 version. I haven't tested them in the latest 0.23 version!
+
 ### Copy Configuration and stuff
 1. Copy the contents of config to .config
 2. Copy the content of etc to your /etc folder. Don't copy the folder and paste it into /etc! It will break the system. Copy the content.
