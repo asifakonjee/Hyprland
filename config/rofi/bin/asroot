@@ -3,8 +3,8 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 
 # Import Current Theme
-DIR="$HOME/.config/themes"
-STYLE="easy"
+DIR="$HOME/.config/hypr/themes"
+STYLE="simple"
 RASI="$DIR/$STYLE/rofi/asroot.rasi"
 
 # rofi sudo askpass helper
@@ -17,10 +17,10 @@ mesg="Run Applications As Root"
 # Options
 layout=`cat ${RASI} | grep 'USE_ICON' | cut -d'=' -f2`
 if [[ "$layout" == 'NO' ]]; then
-	option_1=" Alacritty"
+	option_1=" Foot"
 	option_2=" Thunar"
 	option_3=" Geany"
-	option_4=" Vim"
+	option_4=" Neovim"
 	option_5=" Custom"
 else
 	option_1=""
@@ -32,7 +32,7 @@ fi
 
 # Custom app
 custom() {
-	rofi -dmenu \
+	rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-i -no-fixed-num-lines \
 		-p "Run as Root : " \
 		-theme $DIR/$STYLE/rofi/askpass.rasi
@@ -54,13 +54,13 @@ run_rofi() {
 # Execute Command
 run_cmd() {
 	if [[ "$1" == '--opt1' ]]; then
-		sudo -A -E alacritty
+		sudo -A -E foot
 	elif [[ "$1" == '--opt2' ]]; then
 		sudo -A -E thunar
 	elif [[ "$1" == '--opt3' ]]; then
 		sudo -A -E geany
 	elif [[ "$1" == '--opt4' ]]; then
-		sudo -A -E alacritty -e vim
+		sudo -A -E foot -e nvim
 	elif [[ "$1" == '--opt5' ]]; then
 		custom="$(rofi -dmenu -i -no-fixed-num-lines -p "Run as Root : " -theme $DIR/$STYLE/rofi/askpass.rasi)"
 		sudo -A -E "$custom"
