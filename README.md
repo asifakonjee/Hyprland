@@ -8,6 +8,8 @@ My github repo: https://www.github.com/asifakonjee
 
 ## CAUTION: Please READ the Hyprland wiki FIRST. Don't blindly copy/paste this repo.
 
+## Hyprland is now on Arch repository!
+
 ## Requirements
 1. Arch Linux Base Install
 2. Paru
@@ -15,7 +17,7 @@ My github repo: https://www.github.com/asifakonjee
 ### Git
 
 ```
-sudo pacman -S git
+sudo pacman -S git hyprland
 ```
 
 ### Paru
@@ -32,27 +34,26 @@ makepkg -si
 ### Packages
 
 ``` bash
-sudo pacman -S gdb ninja gcc cmake libxcb xcb-proto xcb-util-keysyms libxfixes libx11 \
-libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd \
-libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff 
-
-
-git clone --recursive https://github.com/hyprwm/Hyprland.git
-cd Hyprland/
-sudo make install
-
-paru -S libdisplay-info sddm-git waybar-hyprland alacritty-sixel-git foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
+paru -S sddm-git waybar-hyprland alacritty-sixel-git foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
 swaybg swaylock-effects-git wl-clipboard networkmanager-dmenu-git \
 xfce-polkit dunst geany viewnior nwg-look xdg-desktop-portal-hyprland-git qt5-svg inetutils \
 xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 \
 pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum kvantum-qt5-git kvantum-qt6-git
 ```
-N.B.- Some points during installation. 
-1. If you choose to install hyprland-git using paru choose rustup as dependency.
-2. If it gives error, then install build from source according to offcial wiki guideline (Best way till now!).
-3. During installation of xdg-desktop-portal-hyprland-git (XDPH) using paru, it may install other portals like xdg-desktop-portal-wlr. Please uninstall those. Only xdg-desktop-portal-gtk will work with XDPH.  
+N.B.- During installation of xdg-desktop-portal-hyprland-git (XDPH) using paru, it may install other portals like xdg-desktop-portal-wlr. Please uninstall those. Only xdg-desktop-portal-gtk will work with XDPH.  
+
+### If you want to build Hyprland from source then follow these steps after installing Paru.
+
+```
+sudo pacman -S gdb ninja gcc cmake libxcb xcb-proto xcb-util-keysyms libxfixes libx11 \
+libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd \
+libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
 
 
+git clone --recursive https://github.com/hyprwm/Hyprland.git
+cd Hyprland/
+sudo make install
+```
 # IMPORTANT: These configuration files will work on Hyprland 0.23 version.
 
 ### Copy Configuration and stuff
@@ -88,9 +89,10 @@ Reference:
  - <kbd>ALT(LEFT)</kbd>+<kbd>W</kbd> = open active window list
 - <kbd>MOD</kbd>+<kbd>S</kbd> = screenshot menu
  - <kbd>MOD</kbd>+<kbd>X</kbd> = power-menu
+ - <kbd>ALT(RIGHT))</kbd>+<kbd>P</kbd> = wallpaper_picker
  - <kbd>MOD</kbd>+<kbd>C</kbd> = close focused app [kill]
  - <kbd>MOD</kbd>+<kbd>N</kbd> = open network manager
- - <kbd>MOD</kbd>+<kbd>R</kbd> = open root menu
+ - <kbd>MOD</kbd>+<kbd>R</kbd> = open apps as root
  - <kbd>ALT(RIGHT)</kbd>  = float window
  - <kbd>MOD</kbd>+<kbd>B</kbd> = hide Waybar
  - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = drag floating window
