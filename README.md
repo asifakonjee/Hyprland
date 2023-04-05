@@ -37,7 +37,7 @@ makepkg -si
 paru -S sddm-git waybar-hyprland alacritty-sixel-git foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
 swaybg swaylock-effects-git wl-clipboard networkmanager-dmenu-git \
 xfce-polkit dunst geany viewnior nwg-look xdg-desktop-portal-hyprland-git qt5-svg inetutils \
-xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 \
+xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro \
 pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum kvantum-qt5-git kvantum-qt6-git
 ```
 N.B.- During installation of xdg-desktop-portal-hyprland-git (XDPH) using paru, it may install other portals like xdg-desktop-portal-wlr. Please uninstall those. Only xdg-desktop-portal-gtk will work with XDPH.  
