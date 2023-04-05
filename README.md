@@ -14,10 +14,10 @@ My github repo: https://www.github.com/asifakonjee
 1. Arch Linux Base Install
 2. Paru
 
-### Git
+### Install Hyprland
 
 ```
-sudo pacman -S git hyprland
+sudo pacman -S hyprland
 ```
 
 ### Paru
@@ -25,7 +25,7 @@ sudo pacman -S git hyprland
 Run as user NOT ROOT!
 
 ```
-sudo pacman -S base-devel
+sudo pacman -S base-devel git
 git clone https://aur.archlinux.org/paru
 cd paru
 makepkg -si
@@ -89,7 +89,7 @@ Reference:
  - <kbd>ALT(LEFT)</kbd>+<kbd>W</kbd> = open active window list
 - <kbd>MOD</kbd>+<kbd>S</kbd> = screenshot menu
  - <kbd>MOD</kbd>+<kbd>X</kbd> = power-menu
- - <kbd>ALT(RIGHT))</kbd>+<kbd>P</kbd> = wallpaper_picker
+ - <kbd>ALT(RIGHT)</kbd>+<kbd>P</kbd> = wallpaper_picker menu
  - <kbd>MOD</kbd>+<kbd>C</kbd> = close focused app [kill]
  - <kbd>MOD</kbd>+<kbd>N</kbd> = open network manager
  - <kbd>MOD</kbd>+<kbd>R</kbd> = open apps as root
