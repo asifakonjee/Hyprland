@@ -17,7 +17,7 @@ My github repo: https://www.github.com/asifakonjee
 ### Install Hyprland
 
 ```
-sudo pacman -S hyprland
+sudo pacman -S hyprland xdg-desktop-portal-hyprland
 ```
 
 ### Paru
@@ -36,7 +36,7 @@ makepkg -si
 ``` bash
 paru -S sddm-git waybar-hyprland wezterm foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
 swaybg swaylock-effects-git wl-clipboard networkmanager-dmenu-git \
-xfce-polkit dunst geany viewnior nwg-look xdg-desktop-portal-hyprland-git qt5-svg inetutils \
+xfce-polkit dunst geany viewnior nwg-look qt5-svg inetutils \
 xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro \
 pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum kvantum-qt5-git kvantum-qt6-git
 ```
