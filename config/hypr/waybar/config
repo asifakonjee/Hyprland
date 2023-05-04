@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/menu", "wlr/workspaces", "hyprland/window"],
     // "modules-center": [],
-    "modules-right": ["custom/filemanager", "custom/browser", "custom/libre", "custom/scratchpad_indicator", "custom/updates", "network", "pulseaudio", "microphone", "backlight", "battery", "clock", "tray", "custom/power"],
+    "modules-right": ["custom/updates", "custom/scratchpad_indicator", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
     
     // Modules configuration
     "wlr/workspaces": {
@@ -54,11 +54,12 @@
     
     "clock": {
         // "timezone": "Asia/Dhaka",
-        "format": "{:%I:%M %p} <span color=\"#FFFFFF\"></span>",
+        "format": "<span color=\"#FFFFFF\"></span> {:%I:%M%p  %d/%m/%Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
-        "format-alt": "{:%d/%m/%Y} <span color=\"#FFFFFF\"></span>"
+        "on-click": "exec wezterm start -e calcure"
+        //"format-alt": "{:%d/%m/%Y} <span color=\"#FFFFFF\"></span>"
     },
-    
+           
     "cpu": {
         "format": "{usage}% <span color=\"#EFCA84\"></span>",
         "tooltip": false
@@ -70,7 +71,7 @@
     
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
+        "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     
@@ -80,9 +81,9 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% <span color=\"#FFFFFF\">{icon}</span>",
+        "format": "<span color=\"#FFFFFF\">{icon}</span>  {capacity}%",
         "format-charging": "{capacity}% <span color=\"#FF0000\"></span>",
-        "format-plugged": "{capacity}% <span color=\"#FF0000\"></span>",
+        "format-plugged": "{capacity}% <span color=\"#FF0000\"></span>",
         "format-alt": "{time} <span color=\"#FF0000\">{icon}</span>",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
@@ -90,7 +91,7 @@
     },
     
     "network": {       
-        "format-wifi": "{essid} ({signalStrength}%) <span color=\"#FFFFFF\"></span> ",
+        "format-wifi": "<span color=\"#FFFFFF\">說</span> {essid} ({signalStrength}%)",
         "format-ethernet": "{ipaddr}/{cidr} <span color=\"#FFFFFF\"></span>",
         "tooltip-format": "{ifname} via {gwaddr} <span color=\"#FFFFFF\"></span>",
         "format-linked": "{ifname} (No IP) <span color=\"#FFFFFF\"></span>",
@@ -102,13 +103,22 @@
     
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% <span color=\"#FFFFFF\">{icon}</span>",
-        "format-bluetooth": "{volume}% <span color=\"#00FF00\">{icon} </span>",
-        "format-bluetooth-muted": "MUTE 婢 ",
-        "format-muted": "MUTE 婢",
-        "format-source": "{volume}% <span color=\"#00FF00\"></span>",
+        //"format": "{volume}% <span color=\"#FFFFFF\">{icon}</span>",
+        //"format-bluetooth": "{volume}% <span color=\"#00FF00\">{icon} </span>",
+        //"format-bluetooth-muted": "MUTE 婢 ",
+        //"format-muted": "MUTE 婢",
+        //"format-source": "{volume}% <span color=\"#00FF00\"></span>",
+        //"format-source-muted": "",
+        //"format-icons": {
+        //    "default": ["奄", "奄", "", "", "", ""]
+        "format": "{icon} {volume}% {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": "婢 {icon} {format_source}",
+        "format-muted": "婢 {format_source}",
+        "format-source": " {volume}%",
         "format-source-muted": "",
         "format-icons": {
+            "headphone": "󰋋",
             "default": ["奄", "奄", "", "", "", ""]
         },
         "on-double-click": "pavucontrol",
@@ -123,22 +133,22 @@
 	},
     
     "custom/menu": {
-    "format": " <span color=\"#FF0000\"></span> ",
+    "format": " <span color=\"#000000\"></span> ",
     "tooltip": false,
-    "on-click": "~/.config/rofi/bin/launcher",
+    "on-click": "pkill rofi || ~/.config/rofi/bin/launcher",
 	},
     
     "custom/power": {
-    "format": " <span color=\"#FF0000\">⏻</span> ",
+    "format": " <span color=\"#000000\">⏻</span> ",
     "tooltip": false,
-    "on-click": "~/.config/rofi/bin/powermenu",
+    "on-click": "pkill rofi || ~/.config/rofi/bin/powermenu",
 	},
 
    "custom/filemanager": {
         "format": "  ",
         "interval": "once",
         "on-click": "exec 'Thunar'",
-  },
+    },
 
   "custom/libre": {
         "format": "  ",
@@ -150,26 +160,38 @@
         "format": "  ",
         "interval": "once",
         "on-click": "exec 'firefox'",
-  },
+    },
 
 	"custom/scratchpad_indicator": {
         "format": "  ",
         "on-click": "exec scratchpad -g",
         "tooltip": true,
         "show-empty": false,
-  },
+    },
   
     "custom/updates": {
         "format": "{}",
         "exec": "~/.config/hypr/waybar/scripts/update-sys",
         "on-click": "~/.config/hypr/waybar/scripts/update-sys update",
-        "interval": 300,
+        "interval": 30,
         "tooltip": true
-  },
+    },
 
+    "wlr/taskbar": {
+        "format": "{name}",
+        "icon-size": 17,
+        "all-outputs": true,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+            "rofi"
+         ]
+    },
+    
     "hyprland/window": {
 		"format": " {}",
-		"max-length": 80,
+		"max-length": 150,
 		"separate-outputs": true
 	}
 }
