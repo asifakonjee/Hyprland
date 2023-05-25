@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+# Import Current Theme
+DIR="$HOME/.config/hypr/themes"
+STYLE="simple"
+RASI="$DIR/$STYLE/rofi/launcher.rasi"
+
+rofi \
+    -show window -no-levenshtein-sort -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
+	-theme ${RASI}
