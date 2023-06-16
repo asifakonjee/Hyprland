@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/menu", "wlr/workspaces", "hyprland/window"],
     // "modules-center": [],
-    "modules-right": ["custom/updates", "custom/scratchpad_indicator", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
+    "modules-right": ["custom/updates", "idle_inhibitor", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
     
     // Modules configuration
     "wlr/workspaces": {
@@ -82,9 +82,9 @@
             "critical": 15
         },
         "format": "<span color=\"#FFFFFF\">{icon}</span>  {capacity}%",
-        "format-charging": "{capacity}% <span color=\"#FF0000\"></span>",
-        "format-plugged": "{capacity}% <span color=\"#FF0000\"></span>",
-        "format-alt": "{time} <span color=\"#FF0000\">{icon}</span>",
+        "format-charging": "<span color=\"#FF0000\"></span> {capacity}%",
+        "format-plugged": "<span color=\"#FF0000\"></span> {capacity}%",
+        "format-alt": "<span color=\"#FF0000\">{icon}</span> {time}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
@@ -102,7 +102,7 @@
     },
     
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 5, // %, can be a float
         //"format": "{volume}% <span color=\"#FFFFFF\">{icon}</span>",
         //"format-bluetooth": "{volume}% <span color=\"#00FF00\">{icon} </span>",
         //"format-bluetooth-muted": "MUTE 婢 ",
@@ -133,13 +133,13 @@
 	},
     
     "custom/menu": {
-    "format": " <span color=\"#000000\"></span> ",
+    "format": " <span color=\"#FFFFFF\"></span> ",
     "tooltip": false,
     "on-click": "pkill rofi || ~/.config/rofi/bin/launcher",
 	},
     
     "custom/power": {
-    "format": " <span color=\"#000000\">⏻</span> ",
+    "format": " <span color=\"#FFFFFF\">⏻</span> ",
     "tooltip": false,
     "on-click": "pkill rofi || ~/.config/rofi/bin/powermenu",
 	},
@@ -188,6 +188,22 @@
             "rofi"
          ]
     },
+    
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": "<span color=\"#FF0000\"></span>"
+        },
+        "tooltip": "true"
+    },
+    
+    "hyprland/language": {
+    "format": "{}",
+    "format-bn": "bn",
+    "format-us": "us",
+    "format-en": "us",
+	},
     
     "hyprland/window": {
 		"format": " {}",
