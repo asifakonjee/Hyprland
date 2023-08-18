@@ -52,20 +52,12 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      2px solid;
+    border:                      3px solid;
     border-radius:               10px;
     border-color:                @border-colour;
     cursor:                      "default";
     /* Backgroud Colors */
-    background-color:            @background-colour;
-    /* Backgroud Image */
-    //background-image:          url("/path/to/image.png", none);
-    /* Simple Linear Gradient */
-    //background-image:          linear-gradient(red, orange, pink, purple);
-    /* Directional Linear Gradient */
-    //background-image:          linear-gradient(to bottom, pink, yellow, magenta);
-    /* Angle Linear Gradient */
-    //background-image:          linear-gradient(45, cyan, purple, indigo);
+    background-color:            transparent;
 }
 
 /*****----- Main Box -----*****/

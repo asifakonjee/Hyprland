@@ -27,21 +27,21 @@ light_value='0.05'
 dark_value='0.45'
 
 # Rofi
-rofi_icon='Colloid-dark'
+rofi_icon='Kora'
 
 # Terminal
-terminal_font_name='JetBrainsMono Nerd Font'
-terminal_font_size='14'
-terminal_opacity='0.8'
+#terminal_font_name='GoMono Nerd Font'
+#terminal_font_size='14'
+#terminal_opacity='0.8'
 
 # Geany
 geany_colors='black.conf'
 geany_font='JetBrains Mono 16'
 
 # Appearance
-gtk_font='JetBrainsMono Nerd Font 12'
+gtk_font='GoMono Nerd Font 12'
 gtk_theme='Rick'
-icon_theme='Colloid-teal-dark'
+icon_theme='Kora'
 cursor_theme='Bibata-Modern-Classic'
 
 # Dunst

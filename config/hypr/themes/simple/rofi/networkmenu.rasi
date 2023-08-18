@@ -51,8 +51,8 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       960px;
-    height:                      540px;
+    width:                       550px;
+    height:                      600px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -60,7 +60,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      2px solid;
+    border:                      3px solid;
     border-radius:               10px;
     border-color:                @border-colour;
     cursor:                      "default";
@@ -151,7 +151,7 @@ case-indicator {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     2;
+    columns:                     1;
     lines:                       6;
     cycle:                       true;
     dynamic:                     true;

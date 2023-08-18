@@ -2,7 +2,7 @@
 swaylock \
 --screenshots \
 --indicator \
---clock \
+--clock --timestr %I:%M%p --datestr %d/%m/%Y \
 --inside-wrong-color f38ba8  \
 --ring-wrong-color 11111b  \
 --inside-clear-color a6e3a1 \
@@ -10,7 +10,7 @@ swaylock \
 --inside-ver-color 89b4fa \
 --ring-ver-color 11111b \
 --text-color  f5c2e7 \
---indicator-radius 80 \
+--indicator-radius 100 \
 --indicator-thickness 5 \
 --effect-blur 10x7 \
 --effect-vignette 0.2:0.2 \

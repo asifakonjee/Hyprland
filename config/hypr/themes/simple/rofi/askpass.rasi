@@ -15,7 +15,7 @@ window {
     x-offset:                    0px;
     y-offset:                    0px;
     padding:                     20px;
-    border:                      2px solid;
+    border:                      3px solid;
     border-radius:               10px;
     border-color:                #FFFFFF;
     background-color:            transparent;

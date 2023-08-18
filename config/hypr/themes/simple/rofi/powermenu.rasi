@@ -21,12 +21,12 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       300px;
+    width:                       800px;
     x-offset:                    0px;
     y-offset:                    0px;
     margin:                      0px;
     padding:                     0px;
-    border:                      2px solid;
+    border:                      3px solid;
     border-radius:               10px;
     border-color:                #FFFFFF;
     cursor:                      "default";
@@ -94,8 +94,8 @@ textbox {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     1;
-    lines:                       5;
+    columns:                     5;
+    lines:                       1;
     cycle:                       true;
     scrollbar:                   false;
     layout:                      vertical;

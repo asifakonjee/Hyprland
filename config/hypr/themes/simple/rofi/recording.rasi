@@ -26,7 +26,7 @@ window {
     y-offset:                    0px;
     margin:                      0px;
     padding:                     0px;
-    border:                      2px solid;
+    border:                      3px solid;
     border-radius:               10px;
     border-color:                #FFFFFF;
     cursor:                      "default";
