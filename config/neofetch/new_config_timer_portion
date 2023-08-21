@@ -1,0 +1,76 @@
+    prin "${c6}│""${c5} ╰Running NixOS For------>" "$(start_date="2023-07-08 00:27:18"
+        current_date=$(date +"%Y-%m-%d %H:%M:%S")
+        start_timestamp=$(date -d "$start_date" +"%s")
+        current_timestamp=$(date -d "$current_date" +"%s")
+        elapsed_seconds=$((current_timestamp - start_timestamp))
+
+        years=$((elapsed_seconds / 31536000))
+        elapsed_seconds=$((elapsed_seconds % 31536000))
+        months=$((elapsed_seconds / 2592000))
+        elapsed_seconds=$((elapsed_seconds % 2592000))
+        weeks=$((elapsed_seconds / 604800))
+        elapsed_seconds=$((elapsed_seconds % 604800))
+        days=$((elapsed_seconds / 86400))
+        elapsed_seconds=$((elapsed_seconds % 86400))
+        hours=$((elapsed_seconds / 3600))
+        elapsed_seconds=$((elapsed_seconds % 3600))
+        minutes=$((elapsed_seconds / 60))
+        seconds=$((elapsed_seconds % 60))
+
+        time_units=()
+        if [ $years -eq 1 ]; then
+          time_units+=("1 year")
+        elif [ $years -gt 1 ]; then
+          time_units+=("$years years")
+        fi
+
+        if [ $months -eq 1 ]; then
+          time_units+=("1 month")
+        elif [ $months -gt 1 ]; then
+          time_units+=("$months months")
+        fi
+
+        if [ $weeks -eq 1 ]; then
+          time_units+=("1 week")
+        elif [ $weeks -gt 1 ]; then
+          time_units+=("$weeks weeks")
+        fi
+
+        if [ $days -eq 1 ]; then
+          time_units+=("1 day")
+        elif [ $days -gt 1 ]; then
+          time_units+=("$days days")
+        fi
+
+        if [ $hours -eq 1 ]; then
+          time_units+=("1 hour")
+        elif [ $hours -gt 1 ]; then
+          time_units+=("$hours hours")
+        fi
+
+        if [ $minutes -eq 1 ]; then
+          time_units+=("1 minute")
+        elif [ $minutes -gt 1 ]; then
+          time_units+=("$minutes minutes")
+        fi
+
+        if [ $seconds -eq 1 ]; then
+          time_units+=("1 second")
+        elif [ $seconds -gt 1 ]; then
+          time_units+=("$seconds seconds")
+        fi
+
+        num_units=${#time_units[@]}
+        formatted_output=""
+
+        for ((i = 0; i < num_units; i++)); do
+          if [ $i -eq $((num_units - 1)) ]; then
+            formatted_output+=" & ${time_units[$i]}"
+          elif [ $i -eq $((num_units - 2)) ]; then
+            formatted_output+="${time_units[$i]}"
+          else
+            formatted_output+="${time_units[$i]}, "
+          fi
+        done
+
+        echo "$formatted_output")"
