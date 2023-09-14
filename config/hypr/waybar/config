@@ -6,12 +6,12 @@
     "fixed-center": true,
     
     // Choose the order of the modules
-    "modules-left": ["custom/menu", "wlr/workspaces", "hyprland/window"],
+    "modules-left": ["custom/menu", "hyprland/workspaces", "hyprland/window"],
     // "modules-center": [],
     "modules-right": ["custom/updates", "idle_inhibitor", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
     
     // Modules configuration
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": false,
         "all-outputs": true,
         "on-scroll-up": "hyprctl dispatch workspace e+1",
