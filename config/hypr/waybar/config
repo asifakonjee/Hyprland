@@ -12,13 +12,13 @@
     
     // Modules configuration
     "hyprland/workspaces": {
-        "disable-scroll": false,
+        "disable-scroll": true,
         "all-outputs": true,
         "on-scroll-up": "hyprctl dispatch workspace e+1",
 		"on-scroll-down": "hyprctl dispatch workspace e-1",
         "on-click": "activate",
         "format": "{icon}",
-         "format-icons": {
+        "format-icons": {
              "1": "",
              "2": "",
              "3": "",
