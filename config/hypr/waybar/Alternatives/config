@@ -1,0 +1,79 @@
+{
+    "position": "bottom",
+    "height": 35, 
+    "spacing": 0, 
+    "margin-top": 4,
+    "fixed-center": true,
+    
+    "modules-left": ["custom/archlogo", "wlr/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["cpu", "memory", "temperature", "pulseaudio","clock", "custom/powermenu"],
+    
+    "custom/archlogo": {
+        "format": " ",
+	"tooltip": false,
+    "on-click": "~/.config/rofi/bin/launcher",
+    },
+    
+    "custom/powermenu": {
+	"format": "⏻ ",
+	"tooltip": false,
+    "on-click": "~/.config/rofi/bin/powermenu",
+    },
+    
+    "clock": {
+        "format": "󰥔 {:%H:%M |  %m-%d}",
+    	"height": 26
+    },
+    
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    
+    "memory": {
+        "format": " {}%"
+    },
+    
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+    
+    "wlr/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+	"active-only": false,
+	"all-outputs": true,
+	"format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "urgent": ""
+       },
+       "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+    },
+   },
+   
+   "pulseaudio": {
+    "format": "󰓃 {volume}%",
+    "format-icons": {
+        "headphone": "",
+        "default": ["", ""]
+    },
+    "scroll-step": 1,
+    "on-click": "pavucontrol",
+    "ignored-sinks": ["Easy Effects Sink"]
+},
+   "sort-by-number": true
+}
+}
+
