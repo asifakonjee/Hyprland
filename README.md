@@ -17,7 +17,10 @@ My github repo: https://www.github.com/asifakonjee
 ### Install Hyprland
 
 ```
-sudo pacman -S hyprland xdg-desktop-portal-hyprland
+sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar foot wezterm libsixel sddm thunar gvfs-mtp swayidle \
+swaybg wl-clipboard dunst geany viewnior qt5-svg inetutils \
+xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro  pipewire wireplumber \
+grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum \
 ```
 
 ### Paru
@@ -34,11 +37,8 @@ makepkg -si
 ### Packages
 
 ``` bash
-paru -S sddm-git waybar-hyprland wezterm foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
-swaybg swaylock-effects-git wl-clipboard networkmanager-dmenu-git \
-xfce-polkit dunst geany viewnior nwg-look qt5-svg inetutils \
-xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro \
-pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum kvantum-qt5-git kvantum-qt6-git
+paru -S rofi-lbonn-wayland-git swaylock-effects-git networkmanager-dmenu-git \
+xfce-polkit nwg-look kvantum-qt5-git kvantum-qt6-git
 ```
 N.B.- During installation of xdg-desktop-portal-hyprland-git (XDPH) using paru, it may install other portals like xdg-desktop-portal-wlr. Please uninstall those. Only xdg-desktop-portal-gtk will work with XDPH.  
 
