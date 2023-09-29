@@ -17,7 +17,7 @@
         "on-scroll-up": "hyprctl dispatch workspace e+1",
 		"on-scroll-down": "hyprctl dispatch workspace e-1",
         "on-click": "activate",
-        "format": "{icon}",
+        "format": "{name}:{icon}",
         "format-icons": {
              "1": "",
              "2": "",
