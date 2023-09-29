@@ -69,7 +69,7 @@ configuration {
 /*	combi-display-format: "{mode} {text}";*/
 
 	/*---------- History and Sorting ----------*/
-	disable-history: false;
+	disable-history: true;
 	sorting-method: "normal";
 	max-history-size: 25;
 
@@ -94,7 +94,7 @@ configuration {
 
 	/*---------- File browser settings ----------*/
     filebrowser {
-/*	  directory: "/home";*/
+	  directory: "/home/asifakonjee";
       directories-first: true;
       sorting-method:    "name";
     }
@@ -181,3 +181,9 @@ configuration {
 	me-accept-custom: "Control+MouseDPrimary";
 */
 }
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+//@theme "/usr/share/rofi/themes/simple.rasi"
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+@theme "/usr/share/rofi/themes/simple.rasi"

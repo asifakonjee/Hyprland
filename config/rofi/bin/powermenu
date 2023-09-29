@@ -3,8 +3,8 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 
 # Import Current Theme
-DIR="$HOME/.config/themes"
-STYLE="easy"
+DIR="$HOME/.config/hypr/themes"
+STYLE="simple"
 RASI="$DIR/$STYLE/rofi/powermenu.rasi"
 CNFR="$DIR/$STYLE/rofi/confirm.rasi"
 
@@ -38,7 +38,7 @@ fi
 
 # Rofi CMD
 rofi_cmd() {
-	rofi -dmenu \
+	rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-p "$prompt" \
 		-mesg "$mesg" \
 		-markup-rows \
@@ -52,7 +52,7 @@ run_rofi() {
 
 # Confirmation CMD
 confirm_cmd() {
-	rofi -dmenu \
+	rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-p 'Confirmation' \
 		-mesg 'Are you Sure?' \
 		-theme ${CNFR}
@@ -80,7 +80,7 @@ run_cmd() {
 	elif [[ "$1" == '--opt2' ]]; then
 		confirm_run 'pkill Hypr'
 	elif [[ "$1" == '--opt3' ]]; then
-		confirm_run 'mpc -q pause' 'pulsemixer --mute' 'sleep 0.5s' 'systemctl suspend' 'exec ~/.config/hypr/bin/lock.sh'
+		confirm_run 'sleep 0.5s' 'systemctl suspend' 'exec ~/.config/hypr/bin/lock.sh'
 	elif [[ "$1" == '--opt4' ]]; then
 		confirm_run 'systemctl reboot'
 	elif [[ "$1" == '--opt5' ]]; then

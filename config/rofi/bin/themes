@@ -3,8 +3,8 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 
 # Import Current Theme
-DIR="$HOME/.config/themes"
-STYLE="easy"
+DIR="$HOME/.config/hypr/themes"
+STYLE="simple"
 RASI="$DIR/$STYLE/rofi/themes.rasi"
 hypr="$HOME/.config/hypr/hyprland.conf"
 
@@ -17,7 +17,7 @@ mesg="<b>Available Themes</b> : `cd $DIR && ls -d */ | cut -d '/' -f1 | wc -l`"
 
 # Rofi CMD
 rofi_cmd() {
-	rofi -dmenu \
+	rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-p "$prompt" \
 		-mesg "$mesg" \
 		-sep '|' \

@@ -37,7 +37,7 @@ LOOP = GLib.MainLoop()
 CONNS = CLIENT.get_connections()
 
 CONF = configparser.ConfigParser()
-CONF.read(expanduser("~/.config/themes/easy/rofi/networkmenu_config.ini"))
+CONF.read(expanduser("~/.config/hypr/themes/simple/rofi/networkmenu_config.ini"))
 
 
 def cli_args():

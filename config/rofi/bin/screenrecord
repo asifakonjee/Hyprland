@@ -3,8 +3,8 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 
 # Import Current Theme
-DIR="$HOME/.config/themes"
-STYLE="easy"
+DIR="$HOME/.config/hypr/themes"
+STYLE="simple"
 RASI="$DIR/$STYLE/rofi/recording.rasi"
 time=`date +%Y-%m-%d-%H-%M`
 dir="Videos/Screencasts"
@@ -30,7 +30,7 @@ option_5=" Record area with audio"
 
 # Rofi CMD
 rofi_cmd() {
-	rofi -dmenu \
+	rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-p "$prompt" \
 		-mesg "$mesg" \
 		-markup-rows \
@@ -70,19 +70,20 @@ run_cmd() {
 		rm "$log" "$pid"
 	elif [[ "$1" == '--opt2' ]]; then
 		countdown '5'
-		wf-recorder -f "$file" 1>"$log" 2>&1 &
+		sleep 2
+		wf-recorder -c libx264rgb -p"rate=60" -f "$file" 1>"$log" 2>&1 &
 		printf "$file" "$log" > "$pid"
 	elif [[ "$1" == '--opt3' ]]; then
 		countdown '5'
-		wf-recorder -a -f "$file" 1>"$log" 2>&1 &
+		wf-recorder -a -c libx264rgb -p"rate=60" -f "$file" 1>"$log" 2>&1 &
 		printf "$file" "$log" > "$pid"
 	elif [[ "$1" == '--opt4' ]]; then
 		sleep 0.5
-		wf-recorder -g "$(slurp)" -f "$file" 1>"$log" 2>&1 &
+		wf-recorder -g "$(slurp)" -c libx264rgb -p"rate=60" -f "$file" 1>"$log" 2>&1 &
 		printf "$file" "$log" > "$pid"
 	elif [[ "$1" == '--opt5' ]]; then
 		sleep 0.5
-		wf-recorder -a -g "$(slurp)" -f "$file" 1>"$log" 2>&1 &
+		wf-recorder -a -g "$(slurp)" -c libx264rgb -p"rate=60" -f "$file" 1>"$log" 2>&1 &
 		printf "$file" "$log" > "$pid"
 	fi
 }

@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
-
 # Import Current Theme
-DIR="$HOME/.config/themes"
-STYLE="easy"
+DIR="$HOME/.config/hypr/themes"
+STYLE="simple"
 RASI="$DIR/$STYLE/rofi/askpass.rasi"
 
 # Rofi text dialog to get password
-rofi -dmenu \
+rofi -dmenu -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
      -password \
      -i \
      -p "Password" \
