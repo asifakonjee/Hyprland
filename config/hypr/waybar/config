@@ -204,6 +204,11 @@
     "format-us": "us",
     "format-en": "us",
 	},
+    "custom/ibus_layout": {
+    "exec": "sleep 0.1s && cat ~/.cache/ibus-layout",
+    "interval": 3,
+    "tooltip": false,
+    },
     
     "hyprland/window": {
 		"format": " {}",
