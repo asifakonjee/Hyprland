@@ -17,10 +17,10 @@ My github repo: https://www.github.com/asifakonjee
 ### Install Hyprland
 
 ```
-sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar foot wezterm libsixel sddm thunar gvfs-mtp swayidle \
+sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar foot libsixel sddm thunar gvfs-mtp swayidle \
 swaybg wl-clipboard dunst geany viewnior qt5-svg inetutils \
 xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro  pipewire wireplumber \
-grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum \
+grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct \
 ```
 
 ### Paru
