@@ -17,9 +17,9 @@ My github repo: https://www.github.com/asifakonjee
 ### Install Hyprland
 
 ```
-sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar konsole foot libsixel sddm thunar gvfs-mtp swayidle \
-swaybg wl-clipboard dunst geany gwenview qt5-svg inetutils \
-xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro pipewire pipewire-audio pipewire-pulse pipewire-jack pulsemixer wireplumber \
+sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar konsole foot libsixel sddm thunar thunar-volman thunar-media-tags-plugin thunar-archive-plugin gvfs-mtp swayidle \
+swaybg wl-clipboard dunst geany gwenview okular qt5-svg inetutils \
+xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro pipewire pipewire-audio pipewire-pulse pipewire-jack pulsemixer wireplumber bluez blueman \
 grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct \
 ```
 
@@ -65,22 +65,22 @@ Reference:
 
 <kbd>MOD</kbd> key is set to the <kbd>WINKEY</kbd>/<kbd>SUPER</kbd>
 
- - <kbd>MOD</kbd>+<kbd>Return</kbd> = Open Default terminal (Foot terminal)
- - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>Return</kbd> = Open Konsole (floating)
- - <kbd>MOD</kbd>+<kbd>w</kbd> = Open Browser (Firefox)
- - <kbd>MOD</kbd>+<kbd>f</kbd> = Open File Manager (Thunar)
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>Return</kbd> = Open Default terminal (Foot terminal)
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>SHIFT</kbd><kbd>+</kbd><kbd>Return</kbd> = Open Konsole (floating)
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>w</kbd> = Open Browser (Firefox)
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>f</kbd> = Open File Manager (Thunar)
  - <kbd>ALT(RIGHT)</kbd> = Open Launcher (Rofi)
- - <kbd>ALT(LEFT)</kbd>+<kbd>w</kbd> = Open active window list
-- <kbd>MOD</kbd>+<kbd>s</kbd> = Screenshot menu
- - <kbd>MOD</kbd>+<kbd>x</kbd> = Power-menu
- - <kbd>ALT(RIGHT)</kbd>+<kbd>p</kbd> = Wallpaper_picker menu
- - <kbd>MOD</kbd>+<kbd>c</kbd> = Close focused app [kill]
- - <kbd>MOD</kbd>+<kbd>n</kbd> = Open network manager
- - <kbd>MOD</kbd>+<kbd>r</kbd> = Open apps as root
- - <kbd>ALT(RIGHT)</kbd>+<kbd>Space</kbd>  = Float window
- - <kbd>MOD</kbd>+<kbd>b</kbd> = Hide Waybar
- - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>b</kbd> = Restart Waybar
- - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = Drag floating window
+ - <kbd>ALT(LEFT)</kbd><kbd>+</kbd><kbd>w</kbd> = Open active window list
+- <kbd>MOD</kbd><kbd>+</kbd><kbd>s</kbd> = Screenshot menu
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>x</kbd> = Power-menu
+ - <kbd>ALT(RIGHT)</kbd><kbd>+</kbd><kbd>p</kbd> = Wallpaper_picker menu
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>c</kbd> = Close focused app [kill]
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>n</kbd> = Open network manager
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>r</kbd> = Open apps as root
+ - <kbd>ALT(RIGHT)</kbd><kbd>+</kbd><kbd>Space</kbd>  = Float window
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>b</kbd> = Hide Waybar
+ - <kbd>MOD</kbd><kbd><kbd>+</kbd></kbd><kbd>SHIFT</kbd><kbd>+</kbd><kbd>b</kbd> = Restart Waybar
+ - <kbd>MOD</kbd><<kbd>+</kbd><kbd>HOLD DOWN LEFT MOUSE BUTTON</kbd> = Drag floating window
  - <kbd>MOD</kbd><kbd>+</kbd><kbd>↑ ↓ → ←</kbd>  = Switch focus respectively 
  
 Other keybindings are at `~/.config/hypr/keybind.conf`
