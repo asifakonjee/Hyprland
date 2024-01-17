@@ -102,4 +102,4 @@ sudo chmod +x copy.sh
 ## Screnshots
 
 <div align = center><img src="https://raw.githubusercontent.com/asifakonjee/Hyprland/main/source/assets/hyprland.png"><br><br>
-<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/Hyprland/main/source/assets/Rofi.jpg"><br><br>
+<div align = center><img src="https://raw.githubusercontent.com/asifakonjee/Hyprland/main/source/assets/rofi.png"><br><br>
