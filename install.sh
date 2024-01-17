@@ -82,11 +82,11 @@ case "$installChoice" in
         sudo systemctl enable bluetooth.service
         sudo systemctl enable tlp.service
         
-	  echo "Starting services..."
-		sudo systemctl start sddm.service
-        sudo systemctl start bluetooth.service
+    echo "Starting services..."
+	sudo systemctl start bluetooth.service
         sudo systemctl start tlp.service
-        
+	sudo systemctl start sddm.service
+        	
     echo "All done! Please reboot for all changes to take effect."
   ;;
 
