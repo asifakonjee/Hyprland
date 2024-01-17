@@ -1,4 +1,4 @@
-# Hyprland version 0.23 on Arch linux
+# Hyprland on Arch linux
 
 **Dr. Asifur Rahman Akonjee**
 
@@ -12,24 +12,24 @@ My github repo: https://www.github.com/asifakonjee
 
 ## Requirements
 1. Arch Linux Base Install
-2. Paru
+2. yay
 
 ### Install Hyprland
 
 ```
-sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar foot libsixel sddm thunar gvfs-mtp swayidle \
-swaybg wl-clipboard dunst geany viewnior qt5-svg inetutils \
-xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro  pipewire wireplumber \
+sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar konsole foot libsixel sddm thunar gvfs-mtp swayidle \
+swaybg wl-clipboard dunst geany gwenview qt5-svg inetutils \
+xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro pipewire pipewire-audio pipewire-pulse pipewire-jack pulsemixer wireplumber \
 grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct \
 ```
 
-### Paru
+### Yay
 
 Run as user NOT ROOT!
 
 ```
 sudo pacman -S base-devel git
-git clone https://aur.archlinux.org/paru
+git clone https://aur.archlinux.org/yay
 cd paru
 makepkg -si
 ```
@@ -37,24 +37,9 @@ makepkg -si
 ### Packages
 
 ``` bash
-paru -S rofi-lbonn-wayland-git swaylock-effects-git networkmanager-dmenu-git \
-xfce-polkit nwg-look kvantum-qt5-git kvantum-qt6-git
+yay -S rofi-lbonn-wayland-git swaylock-effects-git networkmanager-dmenu-git \
+xfce-polkit-git nwg-look kvantum-qt5-git
 ```
-N.B.- During installation of xdg-desktop-portal-hyprland-git (XDPH) using paru, it may install other portals like xdg-desktop-portal-wlr. Please uninstall those. Only xdg-desktop-portal-gtk will work with XDPH.  
-
-### If you want to build Hyprland from source then follow these steps after installing Paru.
-
-```
-sudo pacman -S gdb ninja gcc cmake libxcb xcb-proto xcb-util-keysyms libxfixes libx11 \
-libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd \
-libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info
-
-
-git clone --recursive https://github.com/hyprwm/Hyprland.git
-cd Hyprland/
-sudo make install
-```
-# IMPORTANT: These configuration files will work on Hyprland 0.23 version.
 
 ### Copy Configuration and stuff
 1. Copy the contents of config to .config
@@ -80,24 +65,36 @@ Reference:
 
 <kbd>MOD</kbd> key is set to the <kbd>WINKEY</kbd>/<kbd>SUPER</kbd>
 
- - <kbd>MOD</kbd>+<kbd>Return</kbd> = open terminal (Foot terminal)
- - <kbd>MOD</kbd>+<kbd>A</kbd> = open Alacritty
- - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>Return</kbd> = open Alacritty (floating)
- - <kbd>MOD</kbd>+<kbd>W</kbd> = open Browser (Firefox)
- - <kbd>MOD</kbd>+<kbd>F</kbd> = open File Manager (Thunar)
- - <kbd>ALT(LEFT)</kbd> = open Launcher (Rofi)
- - <kbd>ALT(LEFT)</kbd>+<kbd>W</kbd> = open active window list
-- <kbd>MOD</kbd>+<kbd>S</kbd> = screenshot menu
- - <kbd>MOD</kbd>+<kbd>X</kbd> = power-menu
- - <kbd>ALT(RIGHT)</kbd>+<kbd>P</kbd> = wallpaper_picker menu
- - <kbd>MOD</kbd>+<kbd>C</kbd> = close focused app [kill]
- - <kbd>MOD</kbd>+<kbd>N</kbd> = open network manager
- - <kbd>MOD</kbd>+<kbd>R</kbd> = open apps as root
- - <kbd>ALT(RIGHT)</kbd>  = float window
- - <kbd>MOD</kbd>+<kbd>B</kbd> = hide Waybar
- - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = drag floating window
- - <kbd>MOD</kbd>+<kbd>↑ ↓ → ←</kbd>  = switch focus respectively 
+ - <kbd>MOD</kbd>+<kbd>Return</kbd> = Open Default terminal (Foot terminal)
+ - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>Return</kbd> = Open Konsole (floating)
+ - <kbd>MOD</kbd>+<kbd>w</kbd> = Open Browser (Firefox)
+ - <kbd>MOD</kbd>+<kbd>f</kbd> = Open File Manager (Thunar)
+ - <kbd>ALT(RIGHT)</kbd> = Open Launcher (Rofi)
+ - <kbd>ALT(LEFT)</kbd>+<kbd>w</kbd> = Open active window list
+- <kbd>MOD</kbd>+<kbd>s</kbd> = Screenshot menu
+ - <kbd>MOD</kbd>+<kbd>x</kbd> = Power-menu
+ - <kbd>ALT(RIGHT)</kbd>+<kbd>p</kbd> = Wallpaper_picker menu
+ - <kbd>MOD</kbd>+<kbd>c</kbd> = Close focused app [kill]
+ - <kbd>MOD</kbd>+<kbd>n</kbd> = Open network manager
+ - <kbd>MOD</kbd>+<kbd>r</kbd> = Open apps as root
+ - <kbd>ALT(RIGHT)</kbd>+<kbd>Space</kbd>  = Float window
+ - <kbd>MOD</kbd>+<kbd>b</kbd> = Hide Waybar
+ - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>b</kbd> = Restart Waybar
+ - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = Drag floating window
+ - <kbd>MOD</kbd>+<kbd>↑ ↓ → ←</kbd>  = Switch focus respectively 
  
 Other keybindings are at `~/.config/hypr/keybind.conf`
 
 Welcome to the Hyparland and Enjoy!
+
+# Scripts are in "Beta", Please Don't use now without advanced knowledge.
+
+```
+sudo chmod +x install.sh
+sudo chmod +x yah.sh
+sudo chmod +x copy.sh
+
+./install.sh
+./yay.sh
+./copy.sh
+```
