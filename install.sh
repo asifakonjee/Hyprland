@@ -33,7 +33,7 @@ case "$installChoice" in
         sudo xbps-install  alsa-utils ffmpeg ffmpegthumbs pipewire pipewire-pulse pipewire-jack pipewire-audio wireplumber pavucontrol bluez blueman pulsemixer
       
       echo "Installing file managers..."
-        sudo pacman -S thunar thunar-volman thunar-media-tags-plugin thunar-archive-plugin xdg-user-dirs xdg-utils gvfs-mtp
+        sudo pacman -S thunar thunar-volman thunar-media-tags-plugin thunar-archive-plugin xdg-user-dirs xdg-utils gvfs-mtp tumbler ffmpegthumbnailer
       
       echo "Installing utilities and system tools..."
         sudo pacman -S dunst swayidle swaybg libsixel wl-clipboard gvfs-mtp plymouth tlp tlp-rdw

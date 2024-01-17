@@ -20,7 +20,7 @@ My github repo: https://www.github.com/asifakonjee
 sudo pacman -S hyprland xdg-desktop-portal-hyprland waybar konsole foot libsixel sddm thunar thunar-volman thunar-media-tags-plugin thunar-archive-plugin gvfs-mtp swayidle \
 swaybg wl-clipboard dunst geany gwenview okular qt5-svg inetutils \
 xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 mpv micro pipewire pipewire-audio pipewire-pulse pipewire-jack pulsemixer wireplumber bluez blueman brightnessctl \
-grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct ffmpeg ffmpegthumbs \
+grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct ffmpeg ffmpegthumbs tumbler ffmpegthumbnailer  \
 ```
 
 ### Yay
