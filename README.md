@@ -81,7 +81,7 @@ Reference:
  - <kbd>MOD</kbd>+<kbd>b</kbd> = Hide Waybar
  - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>b</kbd> = Restart Waybar
  - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = Drag floating window
- - <kbd>MOD</kbd>+<kbd>↑ ↓ → ←</kbd>  = Switch focus respectively 
+ - <kbd>MOD</kbd><kbd>+</kbd><kbd>↑ ↓ → ←</kbd>  = Switch focus respectively 
  
 Other keybindings are at `~/.config/hypr/keybind.conf`
 
