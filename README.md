@@ -99,3 +99,6 @@ sudo chmod +x copy.sh
 ./yay.sh
 ./copy.sh
 ```
+## Screnshots
+
+<div align = center><img src="https://github.com/asifakonjee/Hyprland/tree/main/source/assets/hyprland.png"><br><br>
