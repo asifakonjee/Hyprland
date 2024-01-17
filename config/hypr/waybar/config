@@ -7,8 +7,10 @@
     
     // Choose the order of the modules
     "modules-left": ["custom/menu", "hyprland/workspaces", "hyprland/window"],
+    
     // "modules-center": [],
-    "modules-right": ["custom/updates", "idle_inhibitor", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
+    
+    "modules-right": ["custom/updates", "idle_inhibitor", "network", "pulseaudio", "backlight", "battery", "clock", "hyprland/language", "tray", "custom/power"],
     
     // Modules configuration
     "hyprland/workspaces": {
@@ -56,7 +58,7 @@
         // "timezone": "Asia/Dhaka",
         "format": "<span color=\"#FFFFFF\"></span> {:%I:%M%p  %d/%m/%Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
-        "on-click": "exec wezterm start -e calcure"
+        "on-click": "exec konsole start -e calcure"
         //"format-alt": "{:%d/%m/%Y} <span color=\"#FFFFFF\"></span>"
     },
            
@@ -92,7 +94,8 @@
     
     "network": {       
         "format-wifi": "<span color=\"#FFFFFF\">說</span> {essid} ({signalStrength}%)",
-        "format-ethernet": "{ipaddr}/{cidr} <span color=\"#FFFFFF\"></span>",
+        //"format-ethernet": "{ipaddr}/{cidr} <span color=\"#FFFFFF\"></span>",
+        "format-ethernet": "Connected<span color=\"#FFFFFF\"> 󰈀</span>",
         "tooltip-format": "{ifname} via {gwaddr} <span color=\"#FFFFFF\"></span>",
         "format-linked": "{ifname} (No IP) <span color=\"#FFFFFF\"></span>",
         "format-disconnected": "Disconnected 轢",
@@ -200,9 +203,10 @@
     
     "hyprland/language": {
     "format": "{}",
-    "format-bn": "bn",
-    "format-us": "us",
-    "format-en": "us",
+    "format-bn": "<span color=\"#FF0000\">অ</span>",
+    "format-en": "<span color=\"#0000FF\">EN</span>",
+    "keyboard-name": "at-translated-set-2-keyboard",
+    "on-click": "exec hyprctl switchxkblayout at-translated-set-2-keyboard next",
     },
 
     "custom/ibus_layout": {
