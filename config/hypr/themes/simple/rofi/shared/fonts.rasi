@@ -3,5 +3,5 @@
 /* Text Font */
 
 * {
-    font: "Monaco 14";
+    font: "ShureTechMono Nerd Font 14";
 }
