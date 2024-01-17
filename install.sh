@@ -27,7 +27,7 @@ case "$installChoice" in
         sudo pacman -S base-devel git 
       
       echo "Installing other applications..."
-        sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-wayland qt6-wayland qt5ct qt6ct qt5-svg inetutils
+        sudo pacman -S qt5-graphicaleffects qt5-quickcontrols2 qt5-wayland qt6-wayland qt5ct qt6ct qt5-svg inetutils brightnessctl
       
       echo "Installing audio and bluetooth packages..."
         sudo xbps-install  alsa-utils ffmpeg ffmpegthumbs pipewire pipewire-pulse pipewire-jack pipewire-audio wireplumber pavucontrol bluez blueman pulsemixer

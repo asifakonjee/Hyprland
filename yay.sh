@@ -7,7 +7,6 @@ makepkg -si
 
 echo "Installing Rofi..."
     yay -S rofi-lbonn-wayland-git
-
 echo "Installing Sway Lock Effects..."
     yay -S sway-lock-effects-git
 echo "Installing nwg-look..."
@@ -18,3 +17,5 @@ echo "Installing Network Manager Dmenu"
 	yay -S networkmanager-dmenu-git
 echo "Installing XFCE Polkit"
 	yay -S xfce-polkit-git
+echo "Installing Kora Icon & Bibata Cursor"
+	yay -S kora-icon-theme bibata-cursor-theme
