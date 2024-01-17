@@ -45,8 +45,9 @@ xfce-polkit-git nwg-look kvantum-qt5-git
 1. Copy the contents of config to .config
 2. Copy the content of etc to your /etc folder. Don't copy the folder and paste it into /etc! It will break the system. Copy the content.
 3. Copy the contents of usr to the respective folders fo /usr/share folder. Don't copy the folder and paste into /usr/share! It will also break your system. Copy the contents to the respective folder.
-4. Default layout is master (not dwindle) but you can change that in `~/.config/hypr/themes/simple/myColors.conf`
-5. If you are going to use Hyprland only then add these lines to `/etc/environment`
+4. Move ~/.config/rofi/simple.rasi to /usr/share/rofi/themes folder.
+5. Default layout is master (not dwindle) but you can change that in `~/.config/hypr/themes/simple/myColors.conf`
+6. If you are going to use Hyprland only then add these lines to `/etc/environment`
 
 ``` bash
 MOZ_ENABLE_WAYLAND=1
