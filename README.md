@@ -47,7 +47,7 @@ xfce-polkit-git nwg-look kvantum-qt5-git kora-icon-theme bibata-cursor-theme
 3. Copy the contents of usr to the respective folders fo /usr/share folder. Don't copy the folder and paste into /usr/share! It will also break your system. Copy the contents to the respective folder.
 4. Move ~/.config/rofi/simple.rasi to /usr/share/rofi/themes folder.
 5. Default layout is master (not dwindle) but you can change that in `~/.config/hypr/themes/simple/myColors.conf`
-6. If you are going to use Hyprland only then add these lines to `/etc/environment`
+6. Environmental Variables are set on hyprland.conf file. However, if you use Hyprland only you can also add these lines to `/etc/environment`. But this is optional.
 
 ``` bash
 MOZ_ENABLE_WAYLAND=1
