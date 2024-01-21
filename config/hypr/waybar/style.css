@@ -57,12 +57,6 @@
 	border: 0.7px solid #FFFFFF;
 }
 
-#memory {
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
 #workspaces button {
     font-weight: bold; /* Somewhy the bar-wide setting is ignored*/
     padding: 1px 2px;
@@ -74,6 +68,12 @@
     border-radius: 5px;
     color: #FF0000;
     margin: 2px 2px;
+}
+
+#memory {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #battery.charging, #battery.plugged {
@@ -110,6 +110,7 @@
 	border-radius: 5px;
 	border: 0.5px solid #FFFFFF;
 }
+
 #custom-browser {
 	padding-left: 0.1em;
 	padding-right: 0.2em;
@@ -117,6 +118,23 @@
 	border-radius: 5px;
 	border: 0.5px solid #FFFFFF;
 }
+
+#custom-editor {
+	padding-left: 0.1em;
+	padding-right: 0.2em;
+	background: #000000;
+	border-radius: 5px;
+	border: 0.5px solid #FFFFFF;
+}
+
+#custom-terminal {
+	padding-left: 0.1em;
+	padding-right: 0.2em;
+	background: #000000;
+	border-radius: 5px;
+	border: 0.5px solid #FFFFFF;
+}
+
 #custom-libre {
 	background-color: #000000;
 	padding-left: 0.1em;
@@ -125,6 +143,24 @@
 	border-radius: 5px;
 	border: 0.5px solid #FFFFFF;
 }
+
+#window {
+	background-color: #000000;
+	padding-left: 0.1em;
+	padding-right: 0.4em;
+	background: #000000;
+	border-radius: 5px;
+	border: 0.5px solid #FFFFFF;
+}
+
+window#waybar.empty #window {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+/*  background-color: rgba(66,66,66,0.5); */ /* transparent */
+  background-color: transparent;
+}
+
 #custom-scratchpad_indicator {
 	padding-left: 0.1em;
 	padding-right: 0.2em;
@@ -132,6 +168,7 @@
 	border-radius: 5px;
 	border: 0.5px solid #FFFFFF;
 }
+
 #custom-cycle_wall {
 	padding-left: 0.4em;
 	padding-right: 0.2em;
@@ -163,6 +200,7 @@
 	border-radius: 5px;
 	border: 0.5px solid #000000;
 }*/
+
 #battery.critical:not(.charging) {
     color: #d91111;
     animation-name: blink;

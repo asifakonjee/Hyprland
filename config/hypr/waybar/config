@@ -6,11 +6,11 @@
     "fixed-center": true,
     
     // Choose the order of the modules
-    "modules-left": ["custom/menu", "hyprland/workspaces", "hyprland/window"],
+    "modules-left": ["custom/menu", "custom/terminal", "custom/filemanager", "custom/browser", "custom/editor", "hyprland/workspaces", "hyprland/window"],
     
     // "modules-center": [],
     
-    "modules-right": ["custom/updates", "idle_inhibitor", "network", "pulseaudio", "backlight", "battery", "clock", "hyprland/language", "tray", "custom/power"],
+    "modules-right": ["custom/updates", "idle_inhibitor", "network", "pulseaudio", "backlight", "battery", "clock", "tray", "custom/power"],
     
     // Modules configuration
     "hyprland/workspaces": {
@@ -164,6 +164,19 @@
         "interval": "once",
         "on-click": "exec 'firefox'",
     },
+    
+    "custom/editor": {
+        "format": " 󱩼 ",
+        "interval": "once",
+        "on-click": "exec 'geany'",
+    },
+    
+    "custom/terminal": {
+        "format": "  ",
+        "interval": "once",
+        "on-click": "exec 'foot'",
+        "on-click-right": "exec 'konsole'",
+    },
 
 	"custom/scratchpad_indicator": {
         "format": "  ",
@@ -181,16 +194,35 @@
     },
 
     "wlr/taskbar": {
-        "format": "{name}",
-        "icon-size": 17,
-        "all-outputs": true,
+        "format": "{icon}",
+        "icon-size": 18,
         "tooltip-format": "{title}",
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-            "rofi"
-         ]
+           "Alacritty"
+        ],
+        "app_ids-mapping": {
+            "firefoxdeveloperedition": "firefox-developer-edition"
+        },
+        "rewrite": {
+            "Firefox Web Browser": "Firefox",
+            "Foot Server": "Terminal"
+        }
     },
+
+    
+    // "wlr/taskbar": {
+        //"format": "{name}",
+        //"icon-size": 17,
+        //"all-outputs": true,
+        //"tooltip-format": "{title}",
+        //"on-click": "activate",
+        //"on-click-middle": "close",
+        //"ignore-list": [
+        //    "rofi"
+        // ]
+    // },
     
     "idle_inhibitor": {
         "format": "{icon}",
