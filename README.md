@@ -30,7 +30,7 @@ Run as user NOT ROOT!
 ```
 sudo pacman -S base-devel git
 git clone https://aur.archlinux.org/yay
-cd paru
+cd yay
 makepkg -si
 ```
 
