@@ -1,32 +1,30 @@
-## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
-
 [global]
 monitor = 0
 follow = mouse
 width = 350
-height = 100
-origin = top-right
+height = 150
+origin = bottom-right
 offset = 20x20
 corner_radius = 0
 scale = 0
 notification_limit = 0
 progress_bar = true
-progress_bar_height = 100
+progress_bar_height = 150
 progress_bar_frame_width = 2
 progress_bar_min_width = 350
 progress_bar_max_width = 350
 indicate_hidden = yes
-transparency = 0
+transparency = 0.7
 separator_height = 2
 padding = 15
 horizontal_padding = 15
 text_icon_padding = 0
 frame_width = 2
-gap_size = 0
+gap_size = 2
 separator_color = frame
 sort = yes
 idle_threshold = 120
-font = JetBrains Mono 12
+font = GoMono Nerd Font 13
 line_height = 2
 markup = full
 format = %s\n%b
@@ -56,13 +54,13 @@ class = Dunst
 timeout = 2
 background = "#000000"
 foreground = "#FFFFFF"
-frame_color = "#BF616A"
+frame_color = "#008080"
 
 [urgency_normal]
 timeout = 5
 background = "#000000"
 foreground = "#FFFFFF"
-frame_color = "#BF616A"
+frame_color = "#008080"
 
 [urgency_critical]
 timeout = 0
