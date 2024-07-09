@@ -6,7 +6,7 @@
     "fixed-center": true,
     
     // Choose the order of the modules
-    "modules-left": ["custom/menu", "custom/terminal", "custom/filemanager", "custom/browser", "custom/editor", "hyprland/workspaces", "hyprland/window"],
+    "modules-left": ["custom/menu", "custom/terminal", "custom/filemanager", "custom/browser", "custom/editor", "custom/libre", "hyprland/workspaces", "hyprland/window"],
     
     // "modules-center": [],
     
@@ -55,11 +55,28 @@
     },
     
     "clock": {
-        // "timezone": "Asia/Dhaka",
         "format": "<span color=\"#FFFFFF\"></span> {:%I:%M%p  %d/%m/%Y}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
-        "on-click": "exec konsole start -e calcure"
-        //"format-alt": "{:%d/%m/%Y} <span color=\"#FFFFFF\"></span>"
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+                    "mode"          : "year",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#ffead3'><b>{}</b></span>",
+                              "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                              "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                              "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode",
+                    "on-click-forward": "tz_up",
+                    "on-click-backward": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+                    }
     },
            
     "cpu": {
@@ -93,7 +110,7 @@
     },
     
     "network": {       
-        "format-wifi": "<span color=\"#FFFFFF\">說</span> {essid} ({signalStrength}%)",
+        "format-wifi": "<span color=\"#FFFFFF\"></span> {essid} ({signalStrength}%)",
         //"format-ethernet": "{ipaddr}/{cidr} <span color=\"#FFFFFF\"></span>",
         "format-ethernet": "Connected<span color=\"#FFFFFF\"> 󰈀</span>",
         "tooltip-format": "{ifname} via {gwaddr} <span color=\"#FFFFFF\"></span>",
@@ -136,7 +153,7 @@
 	},
     
     "custom/menu": {
-    "format": " <span color=\"#FFFFFF\"></span> ",
+    "format": " <span color=\"#FFFFFF\"></span> ",
     "tooltip": false,
     "on-click": "pkill rofi || ~/.config/rofi/bin/launcher",
 	},
@@ -150,11 +167,11 @@
    "custom/filemanager": {
         "format": "  ",
         "interval": "once",
-        "on-click": "exec 'Thunar'",
+        "on-click": "exec '~/.config/hypr/scripts/thunar.sh'",
     },
 
   "custom/libre": {
-        "format": "  ",
+        "format": " 󰈭 ",
         "interval": "once",
         "on-click": "exec libreoffice",
   },
@@ -162,13 +179,13 @@
     "custom/browser": {
         "format": "  ",
         "interval": "once",
-        "on-click": "exec 'firefox'",
+        "on-click": "exec '~/.config/hypr/scripts/firefox.sh'",
     },
     
     "custom/editor": {
         "format": " 󱩼 ",
         "interval": "once",
-        "on-click": "exec 'geany'",
+        "on-click": "exec '~/.config/hypr/scripts/geany.sh'",
     },
     
     "custom/terminal": {

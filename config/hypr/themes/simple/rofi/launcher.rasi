@@ -51,8 +51,8 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1680px;
-    height:						 945px;
+    width:                       1600px;
+    height:						 844px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -61,7 +61,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      3px solid;
-    border-radius:               10px;
+    border-radius:               0px;
     border-color:                @border-colour;
     cursor:                      "default";
     /* Backgroud Colors */
@@ -103,7 +103,7 @@ prompt {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         "";
+    str:                         " ";
     background-color:            inherit;
     text-color:                  inherit;
 }
@@ -143,17 +143,16 @@ case-indicator {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     4;
-    lines:                       6;
+    columns:                     5;
+    lines:                       10;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
     layout:                      vertical;
     reverse:                     false;
     fixed-height:                true;
-    fixed-columns:               true;
-    
-    spacing:                     7px;
+    fixed-columns:               false;
+    spacing:                     10px;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;

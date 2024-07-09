@@ -36,19 +36,19 @@ rofi_icon='Kora'
 
 # Geany
 geany_colors='black.conf'
-geany_font='JetBrains Mono 16'
+geany_font='GoMono Nerd Font 16'
 
 # Appearance
 gtk_font='GoMono Nerd Font 12'
 gtk_theme='Rick'
-icon_theme='Kora'
+icon_theme='Crule-dark'
 cursor_theme='Bibata-Modern-Classic'
 
 # Dunst
 dunst_width='350'
-dunst_height='100'
+dunst_height='150'
 dunst_offset='20x20'
-dunst_origin='top-right'
-dunst_font='JetBrains Mono 12'
+dunst_origin='bottom-right'
+dunst_font='GoMono Nerd Font 13'
 dunst_border='2'
 dunst_separator='2'
