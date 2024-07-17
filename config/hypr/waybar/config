@@ -126,7 +126,7 @@
         "format-ethernet": "Connected<span color=\"#FFFFFF\"> 󰈀</span>",
         "tooltip-format": "{ifname} via {gwaddr} <span color=\"#FFFFFF\"></span>",
         "format-linked": "{ifname} (No IP) <span color=\"#FFFFFF\"></span>",
-        "format-disconnected": "Disconnected 轢",
+        "format-disconnected": "Disconnected <span color=\"#FF0000\">󰤭</span>",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
         "on-click": "~/.config/rofi/bin/network_menu",
         "on-click-right": "nm-connection-editor"
@@ -134,7 +134,7 @@
     
     "pulseaudio": {
         "format": "{icon} {volume}%",
-        "format-muted": "婢",
+        "format-muted": "<span color=\"#FF0000\"></span>",
         "format-bluetooth": "{icon} {volume}%",
         "format-bluetooth-muted": "婢 {icon}",
         "format-icons": {
@@ -151,7 +151,7 @@
     "pulseaudio#microphone": {
 		"format": "{format_source}",
 		"format-source": " {volume}%",
-		"format-source-muted": " ",
+		"format-source-muted": "<span color=\"#FF0000\"></span>",
 		"on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
 		"on-click-right": "pavucontrol -t 4",
 		"on-scroll-up": "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SOURCE@ 5%+",
