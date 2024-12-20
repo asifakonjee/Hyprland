@@ -1,3 +1,5 @@
+# !!! Config is OUTDATED! !!!
+
 # Hyprland on Arch linux
 
 **Dr. Asifur Rahman Akonjee**
